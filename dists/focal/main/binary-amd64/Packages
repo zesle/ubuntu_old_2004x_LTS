@@ -6687,6 +6687,23 @@ Multi-Arch: foreign
 Homepage: http://zeslecp.com
 Description: Zesle Agent
 
+Package: zesle-openlitespeed
+Version: 1.7.15-4
+Architecture: amd64
+Maintainer: lsadm <info@litespeedtech.com>
+Installed-Size: 30442
+Depends: libc6 (>= 2.10), libcrypt1 (>= 1:4.1.0), rcs, libxml2, openssl, libexpat | libexpat1
+Filename: pool/focal/main/zesle-openlitespeed_1.7.15-4_amd64.deb
+Size: 8164612
+MD5sum: 2e2cb46e820ccc7b2162ce6e222273e8
+SHA1: 754ec04b05a37783c93813382c571a615414dbb6
+SHA256: da3ae8f67c6d8f1fb97191d71944682cfafe93448ae95f2e2dcfe78528ed99fa
+Section: extra
+Priority: Priority
+Homepage: http://www.open.litespeedtech.com
+Description: High Performance, lightweight, open source HTTP server
+ OpenLiteSpeed Web Server is developed and copyrighted by LiteSpeed Technologies.
+
 Package: zesle-php
 Version: 7.4.29-2
 Architecture: amd64
