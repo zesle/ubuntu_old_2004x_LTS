@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Zesle Software Inc
+Label: ZesleCP Repo
+Suite: focal
+Version: 20.04
+Codename: focal
+Architecture: amd64
+Component: main
+Description: ZesleCP Focal 20.04
+Date: Thu, 05 May 2022 19:03:05 +0000
+MD5Sum:
+ 1a042d60519907fe7a38ed254a0aa401              198 Release
+ 1c0421c2bd5ad0112fe155cbbe478ae6           249922 main/binary-amd64/Packages
+ a3a3bd96254468b8ff60a7782366bb0a            45676 main/binary-amd64/Packages.bz2
+ 6eb738643f86784f7c4391a55acb1939            53791 main/binary-amd64/Packages.gz
+SHA1:
+ 622ad705a45059b990a5334a2ee90000b4098936              198 Release
+ 42c4af38062f6d12c4375e2193f470e3522cfdd0           249922 main/binary-amd64/Packages
+ eb77507c1dce8d6ad60f698e91d0cdf05209b4d5            45676 main/binary-amd64/Packages.bz2
+ e2c8f318ad996a6a8ae8f1be97c07690c388952d            53791 main/binary-amd64/Packages.gz
+SHA256:
+ 0d70cda44cd3cd9f42416da7b975704b3a26cf49d886c7f5b5d667e8a1a1ec8a              198 Release
+ 058c24553541fecee40a3ee4bf94139176bc07e092a1d425f488a825612770ca           249922 main/binary-amd64/Packages
+ ab6170ce5559520cfc3b5e27ae1a6532749b1c65ed9b68854528533562690276            45676 main/binary-amd64/Packages.bz2
+ ea893063f29292223ad248de659905e20fde9e21c7bc70c72b3d7b6bb1d5c331            53791 main/binary-amd64/Packages.gz
+SHA512:
+ 2307378973431416c0cabaea176f724de8acc56a48212559a37778535f0dc914fb0dc4deedcc6228080c3c3bbdf5a346b02c2fb57fff89a09065294c37d39d17              198 Release
+ 28e5f3f8b77b4959e57b9d7ec1ef2e4f93ae27abc2761f94ac566cd66a0329e929b586448deb4302bd7f55a9a45be27b05f108a4836c8c0d23a92fc0fc6841ae           249922 main/binary-amd64/Packages
+ f39175cf0c88fe8120cc97d29c94acbe800b5c915aed349f6610ac1571df5d2494da380804bcb975b6f27240753edf32087100fafa3355027a456165b8eeacc8            45676 main/binary-amd64/Packages.bz2
+ eacfa3faa94264909aef73f293cc6364ab9926f2b608aa475a0b990e439462c1388448264ebae7c7399ec5352afc6ec9038818c818d79f90a9ace3765d04987a            53791 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmJ0H2kACgkQIWl7FNN5
+scMBOwwAoZad4IsO3NInLTJhy3+Q6Nf0EnepFwUbahKlovmXVtIA91V9HNtfXgsB
+Srk2vzXdUU/pubyvhd/5v2Tl0NGIUuMJBiSzVNyaqOksbLo74tsGAVDn5TP6V/h7
+zAFsECMttwI8c5btgiu2ZSoV6pq9fX7JyT77qDvAuyX51GjnpHe+Tf+NRBKjfkAk
+iJuVySkKmugyAThJ8lk75VloG/F2cZkgqp4hPwGd8FSDHpy+kL6AhTR9w+6XzjHU
+2ZWPblZ5fKzNWLcs8gLqXOXRe20Y98kqvPf1TjlFBiqqdrjFzSlvuBQE/dwE36Pq
+9rlRMtveEdOlwluqQCTwXKlcCDEfFkMOK7YKqiSaKhdpup1K7YFB0VRNuBO0DjUA
+eYGbiaHFDEFhMRkNiYdV0cUiH2SUJ4mo1XbLkHl9VTmMvMmwsv2oh0k9umW8wJ9I
+SHbq8DQdAMxJaep0Z4Ztdrm5+Ecf0Y3v8M4iYXaf7Rdyfz90RdDBchk7JgdXbO9s
+IfNmiHn3
+=+9R5
+-----END PGP SIGNATURE-----
