@@ -2817,6 +2817,24 @@ Homepage: http://www.php.net/
 Description: The ze-php72-intl package contains a dynamic shared object that will add
     support for using the ICU library to PHP.
 
+Package: ze-php72-ioncube
+Version: 10.4.5-9
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1433
+Depends: libc6 (>= 2.4)
+Filename: pool/focal/main/ze-php72-ioncube_10.4.5-9_amd64.deb
+Size: 441000
+MD5sum: c91e7ffa1e345b6c202a1325b533ebb4
+SHA1: 5a51065f0fe556d94e7d5ad57851ef70f7cade19
+SHA256: 860ade032048ae9dce45422b7ca49b00291d1182c03935e335f31b93c419e660
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://www.ioncube.com/loaders.php
+Description: The v10 ionCube Loader enables use of ionCube-encoded PHP files running
+ under PHP.
+
 Package: ze-php72-ldap
 Source: ze-php72
 Version: 7.2.34-13
@@ -3611,6 +3629,24 @@ Description: The php-iconv package delivers a module which will allow PHP script
     idea to install the GNU libiconv library. It will most likely end up
     with more consistent results.
 
+Package: ze-php73-imagick
+Version: 3.7.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 479
+Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
+Filename: pool/focal/main/ze-php73-imagick_3.7.0-1_amd64.deb
+Size: 93648
+MD5sum: 1ecf1faa69d276e3b8e9ce08ae1f9cca
+SHA1: 42433d3cb6fae6510edc9884c71d752f835b32a3
+SHA256: e6eb8111bcc4adc5be0d6e767e72e2b86bc1dbe0f9ca8513ef6bd85a1e5f77b7
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://pecl.php.net/package/imagick/3.4.4
+Description: Imagick is a native php extension to
+  create and modify images using the ImageMagick API.
+
 Package: ze-php73-imap
 Source: ze-php73
 Version: 7.3.33-7
@@ -3648,6 +3684,24 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php73-intl package contains a dynamic shared object that will add
     support for using the ICU library to PHP.
+
+Package: ze-php73-ioncube
+Version: 10.4.5-9
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1344
+Depends: libc6 (>= 2.4)
+Filename: pool/focal/main/ze-php73-ioncube_10.4.5-9_amd64.deb
+Size: 424828
+MD5sum: 4ca6a8f72f4258e5400a33b738bb192a
+SHA1: 6a612ffc6183ca078836ffb6be555d4663f1926f
+SHA256: 11f77b4292c1884c9dc3d058103b47c2a5332974301168d594e9d24e896013fd
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://www.ioncube.com/loaders.php
+Description: The v10 ionCube Loader enables use of ionCube-encoded PHP files running
+ under PHP.
 
 Package: ze-php73-ldap
 Source: ze-php73
@@ -3704,6 +3758,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php73-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php73-mongodb
+Version: 1.9.1-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1346
+Depends: ucf, libc6 (>= 2.17), libicu66 (>= 66.1-1~), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0)
+Filename: pool/focal/main/ze-php73-mongodb_1.9.1-4_amd64.deb
+Size: 434368
+MD5sum: 14e47ff01a3e6cafb8c7b10080b516a7
+SHA1: e51c4a4e5f7633a3dfd409aa1c28b5b7f0b0d74e
+SHA256: c64020cef6d6b2522f05f359091cc8cbaadc3db50a487d6e442b674c5d8c3e3d
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php73-mysqlnd
 Source: ze-php73
@@ -4443,6 +4518,24 @@ Description: The php-iconv package delivers a module which will allow PHP script
     idea to install the GNU libiconv library. It will most likely end up
     with more consistent results.
 
+Package: ze-php74-imagick
+Version: 3.7.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 471
+Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
+Filename: pool/focal/main/ze-php74-imagick_3.7.0-1_amd64.deb
+Size: 91592
+MD5sum: 192bd40b6d2a877e88abb76ca839a96d
+SHA1: 23036ff38a231ca725c43980b9cfe0dd3776203b
+SHA256: 4c73fd196f4eb4f5b623bc097a6ab1d04fa753b6c920998159890858c64b12a8
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://pecl.php.net/package/imagick/3.4.4
+Description: Imagick is a native php extension to
+  create and modify images using the ImageMagick API.
+
 Package: ze-php74-imap
 Source: ze-php74
 Version: 7.4.29-3
@@ -4480,6 +4573,24 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php74-intl package contains a dynamic shared object that will add
     support for using the ICU library to PHP.
+
+Package: ze-php74-ioncube
+Version: 10.4.5-9
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1364
+Depends: libc6 (>= 2.4)
+Filename: pool/focal/main/ze-php74-ioncube_10.4.5-9_amd64.deb
+Size: 436320
+MD5sum: f3969cbdd0301b2d962f3dde2c230cd3
+SHA1: 838127224468ae1584c722d07019b786b306ea0b
+SHA256: bf1801e06eaa464c6bf24d236dfe7d3351c52ae6f0cac4c704a2e65339ca0833
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://www.ioncube.com/loaders.php
+Description: The v10 ionCube Loader enables use of ionCube-encoded PHP files running
+ under PHP.
 
 Package: ze-php74-ldap
 Source: ze-php74
@@ -4536,6 +4647,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php74-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php74-mongodb
+Version: 1.9.1-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1346
+Depends: ucf, libc6 (>= 2.17), libicu66 (>= 66.1-1~), libsasl2-2 (>= 2.1.27+dfsg), libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.2.0)
+Filename: pool/focal/main/ze-php74-mongodb_1.9.1-4_amd64.deb
+Size: 434872
+MD5sum: b729189823cfd5c0413643a49cdf0ac9
+SHA1: 6495a3c786a097e7de4f5c203952257d802faead
+SHA256: 57004e7157a551a37e91632b881d1544c327b21995b417b9b160a093fb2e58a7
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php74-mysqlnd
 Source: ze-php74
@@ -5256,6 +5388,24 @@ Description: The php-iconv package delivers a module which will allow PHP script
     systems may not work as you expect. In such case, it would be a good
     idea to install the GNU libiconv library. It will most likely end up
     with more consistent results.
+
+Package: ze-php80-imagick
+Version: 3.7.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 479
+Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
+Filename: pool/focal/main/ze-php80-imagick_3.7.0-1_amd64.deb
+Size: 92184
+MD5sum: 0c1cd36ecec00d3709b9dbf1851cc673
+SHA1: 58057c558eaa3de67643aaf0f3ec522f36f9c5e8
+SHA256: 543ce2615924c6307941dd4b05354d5654a7cda7c7c035510280ca74e057a034
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://pecl.php.net/package/imagick/3.4.4
+Description: Imagick is a native php extension to
+  create and modify images using the ImageMagick API.
 
 Package: ze-php80-imap
 Source: ze-php80
@@ -6071,6 +6221,24 @@ Description: The php-iconv package delivers a module which will allow PHP script
     idea to install the GNU libiconv library. It will most likely end up
     with more consistent results.
 
+Package: ze-php81-imagick
+Version: 3.7.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 479
+Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
+Filename: pool/focal/main/ze-php81-imagick_3.7.0-1_amd64.deb
+Size: 92120
+MD5sum: e98317afa2f84cbe967f28faf79dee70
+SHA1: 4141856fa43bf8b8883d9e1e64575f8cdd30669d
+SHA256: 31d7b3ce3a8a374d3bedfdaeff7fc7dd719bf70996326640e3b572c503a8e349
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://pecl.php.net/package/imagick/3.4.4
+Description: Imagick is a native php extension to
+  create and modify images using the ImageMagick API.
+
 Package: ze-php81-imap
 Source: ze-php81
 Version: 8.1.5-3
@@ -6484,6 +6652,40 @@ Homepage: http://www.php.net/
 Description: The ze-php81-zip package delivers a module which will allow PHP scripts
     to transparently read or write ZIP compressed archives and the files
     inside them.
+
+Package: zesle-agent
+Version: 1.0.1-6
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 19852
+Depends: libc6 (>= 2.28)
+Filename: pool/focal/main/zesle-agent_1.0.1-6_amd64.deb
+Size: 6330928
+MD5sum: 842c8a56b4853b9d274ed0b66c3b3770
+SHA1: d89197e87d5f1c2ea659441cbf430521547d0f39
+SHA256: 3ca6549ef667f7fccbceaa66840e42ca1f69b4a610e550fea64752dc424085de
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://zeslecp.com
+Description: Zesle Agent
+
+Package: zesle-chrootsh
+Version: 1.0-4
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1759
+Depends: libc6 (>= 2.25), libtinfo6 (>= 6)
+Filename: pool/focal/main/zesle-chrootsh_1.0-4_amd64.deb
+Size: 559544
+MD5sum: cab73156361bb55380401de78bb485d6
+SHA1: ec6cdde00fd3262de3f45135503a4307e5e8e758
+SHA256: 1b1ba038da04b05e0e116e99aea10418ed22bb93f9dd1f7c0fd41c75f8e2eeda
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: http://zeslecp.com
+Description: Zesle Agent
 
 Package: zesle-php
 Version: 7.4.29-2
