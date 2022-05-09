@@ -9,38 +9,38 @@ Codename: all
 Architecture: amd64
 Component: main
 Description: ZesleCP All 20.04
-Date: Mon, 09 May 2022 06:38:10 +0000
+Date: Mon, 09 May 2022 15:00:45 +0000
 MD5Sum:
- b4202b5cd945f9a9f54f3def3ca20bb1              192 Release
+ d41cab0e31c8d1bc2ef65c88c2108a9f              192 Release
  ff3269a16a345dca84f16f0b7f2b45a0             2404 main/binary-amd64/Packages
  ad0c42272846858651ea5c6b03c374d3             1348 main/binary-amd64/Packages.bz2
- fe31c58cabd11e64aac2015a4a1cc574             1249 main/binary-amd64/Packages.gz
+ 24302f7c5cef6c1094189d30d722c5e1             1249 main/binary-amd64/Packages.gz
 SHA1:
- 35fdb147c7bf1ba3a1773e082e06e590ba64b463              192 Release
+ e9985bebecb547cb7d90c97fd48e47cf5dc4dd55              192 Release
  6978914e6ebc5ff0c0c6a70b0db95fac2daf583b             2404 main/binary-amd64/Packages
  94338b3dbad2f42410ad98ec3ef071eeb5d50be7             1348 main/binary-amd64/Packages.bz2
- 85c93eeaaad97d1bae06d3292833608b71692b3d             1249 main/binary-amd64/Packages.gz
+ f7d656a5c9992e95d3ce56fc41d0b4ad60d130de             1249 main/binary-amd64/Packages.gz
 SHA256:
- da197edf51e16cb3daa88c809b24a675d482b2d0828b5bf86b71989cbf9f76d5              192 Release
+ e88166f6750d8be8e1830c2867fa6e2ddbe27b15f03f39eef6385770bcfcda73              192 Release
  8fd12c4d8e8fdd986a1112d4404941e8c86aa7d9059f02e17ac278c96b149270             2404 main/binary-amd64/Packages
  f5442ce8fa6a6b12ae1181dfc4621ccbd0c5c4540cadb5825d9dfd0de6b2bce2             1348 main/binary-amd64/Packages.bz2
- f8cc8a652d2b4d431eb97e11f0c9e6e041800f02ab49f3e49d4bc6ec015a1c6c             1249 main/binary-amd64/Packages.gz
+ d8bba96685c137c1eefabb7ba99d6197cc1d47ec3704b4b6f43c789d0df3011e             1249 main/binary-amd64/Packages.gz
 SHA512:
- ad3a74f57c4990a8e6a03dda340c8bf2ed2724fe64d432a7d23d923c806af2e961286372a9eff65d2ed2c473885a1b7fca026b0a394cf28dbd8a1aa56db0ba53              192 Release
+ 9a338e7414c7bc75947ab1754f386c433d34fb17cce4c8be9a143278c10c37c23b92d13700c17b985b8a6cb5c49656bb25583969fdd8014b50ac3cf5e221e47a              192 Release
  e52351dc204c7bc703e1c6abbd7bd57133a7ac12358cc9779851e40ae4b3952894e0ca2d2e416395fee33de2c2ea8e7f12b6a0cbc458e8a4948edfd2b8134686             2404 main/binary-amd64/Packages
  5c9489bfc797f0224c5262c9226925be5d094b2cda5907ea17f40277137db4e1f84108f89dff400935396c04da54f5b9f81c1553c8ef320b0678f57dd6a171c2             1348 main/binary-amd64/Packages.bz2
- ca77d541a89684d87a444d26173788849430380743897ff4560a6d20cfc8d178511b46bf33a9a64a81601f4a724902751067dc19706660ae1ba8a42da7c21f1b             1249 main/binary-amd64/Packages.gz
+ 5824691d2c5ce54816a168d43b04264641867155445ef9794ec14aa49c3fe50bf41bf6afa993170653debc6679744b9a9f691121e2af2abde6f6f0093c1a36b7             1249 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmJ4ttIACgkQIWl7FNN5
-scNWRgv+LlqEGvRTc9MjjO+8kgbVFnLXJoDjSj0D2KOonh/u0LEJjU2PjGD8wEla
-/2//uakhlsZv81HnQDBw2C3lCGikKmkMkdf7oBkzgCrQSf5FDTA7FAJHavHEbYs5
-eaxAaoYrXS4QKUJ7bU9TIF2s2GzVm88rDzqX4XgZDR8s8fRCVAEY3xBO+PKejR2K
-RedDSBg7ov/jJqhJsLCz7j6vwOTI02xoQQixOHOSKrD1HkHBFa+m9jWoayGpzoeK
-nyDss1ADVjXnrXdWMvFIWhJmLNvMt872++ofR8050NXFkV/sX98m5iDSoKy6QWDP
-fjq3cSAV8PIcezOmYHLv8Q5+58d+N13npQaEKZ8k0kVXHilHBe9tE1kXEY+dWLVL
-jlqMQmWT0hGTmJOnZGFkuVc/29DGvZ4T7K/JbTIkyHUdvk/WdauabXLqe7ttmrZk
-hByigzxObDpYhvJd1QGP0hLVbzg88dw15sEJlivLNeZ8Le+mwOMJpZW1Z1QBl5xY
-LW99UNJR
-=7THy
+iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmJ5LJ0ACgkQIWl7FNN5
+scMaOAwAmnRkRtQcMHInl17nJylAe4GJHZOYWvjAN+5r/ZENf8b2kMeIvkSGS90c
+Dq5HHtaRAwmp8XiClkwSwllAuu8PRDZ314+kdrE7ConL0QvZUT4rm4TavkOu8DHp
+5jCcETiIzVW0ga9DeYyK1DtwvYd0ediT8VAv4mJ2dJKUy3VEMmPA/9KERSSzoj0p
+9BCcxXYStudThcGPnJl7nMP/JkVPc4RiO9Zkrm0w7gfqkzqwBI7fjf4IbbjrWSNt
+SHKnt/PR6cTQcU+kr/H7DZoJ9xIAompNFOorZlKklWixXTwVe4CyRtMoyHARJjEp
+skPLWR4005pGKZ13Gmfcwk93c4siVOTTWKAzmf7eJ1GggEBoQXR+Fb5UwgpQAotb
+VP+ko2U3PHze6OlJPLImosFhbJhr6CEjLgqHOLAbHWWWuUkIF3l90abNpF1u7mNM
+U/Xg6JLRK69jVsSPGMIZtmL7Oyt9vDCk1EPJcKZxu7pD93ONpSTMy9z8V7rn3m0y
+CkCaapXU
+=G0s4
 -----END PGP SIGNATURE-----
