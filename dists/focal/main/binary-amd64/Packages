@@ -4301,6 +4301,26 @@ Description: NGINX is a high performance web server that is
  This setup results in faster time to first byte
  and often less load on a busy server.
 
+Package: ze-nginx
+Version: 1.21.6-6
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 13408
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 3.0), libpcre2-8-0 (>= 10.22), libssl1.1 (>= 1.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4)
+Conflicts: apache2, apache24, nginx
+Filename: pool/focal/main/ze-nginx_1.21.6-6_amd64.deb
+Size: 3970952
+MD5sum: 3eb257fbf18614910911347d41984ec7
+SHA1: 84404b12fe2b901f0179403daef1da5ee91a48a5
+SHA256: b45a75d8c2e680b2460e7b01b5904969671db2421f93c4c926e8369f3a4882dd
+Section: extra
+Priority: Priority
+Homepage: https://nginx.org
+Description: NGINX is a high performance web server that is
+ configured as a caching reverse-proxy by default.
+ This setup results in faster time to first byte
+ and often less load on a busy server.
+
 Package: ze-nginx-lua
 Source: ze-nginx
 Version: 1.21.6-5
@@ -4314,6 +4334,24 @@ Size: 541868
 MD5sum: cc70c7799209a6d5cddea679e5f68ece
 SHA1: 06b1cbe8b408a8b03ff8d216878d25421449d7fa
 SHA256: 8ef6068bbcbb05560230514766a1916bc34bc55c3d17ffcdfc6979b65e578c15
+Section: extra
+Priority: Priority
+Homepage: https://nginx.org
+Description: Embed the Power of Lua into NGINX HTTP servers
+
+Package: ze-nginx-lua
+Source: ze-nginx
+Version: 1.21.6-6
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 2719
+Depends: ze-nginx
+Provides: ze-nginx-lua
+Filename: pool/focal/main/ze-nginx-lua_1.21.6-6_amd64.deb
+Size: 542040
+MD5sum: 317ac132e01a3a79397dbe1d2b0c4bc2
+SHA1: 81a11c38e84756212d6794d7c9de3a29f2581d2d
+SHA256: 2942d5fb329dfe7654aabcad0c8f66059744e499be50a5a6df41defc5c4c24b6
 Section: extra
 Priority: Priority
 Homepage: https://nginx.org
@@ -12854,10 +12892,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 47787
 Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
 Filename: pool/focal/main/zesle-php-cli_7.4.29-3_amd64.deb
-Size: 8173732
-MD5sum: 3b5f423d09b778fcab4d320b4b003032
-SHA1: 780e989d8267a35ffe9cf4eb85b2cef30f2321ea
-SHA256: 3f147cf8986125bcd615c94585635e538ce4f5c8a62700415b1cbe2ec0cad717
+Size: 8171600
+MD5sum: 6dcdbd1ef59315f7d54a925643aa81fb
+SHA1: 81375fcdced1efbc4cfb4233b9533c8d0f86c30a
+SHA256: c98abf9261669a374a0bce6250faed72d6d1c31828de799b87c02e35116e58a1
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -12929,10 +12967,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 23720
 Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
 Filename: pool/focal/main/zesle-php-fpm_7.4.29-3_amd64.deb
-Size: 4023648
-MD5sum: 74e97de0891d3000ab879a60f102ed55
-SHA1: 452337faebb58590ca26590b752df06bf792f884
-SHA256: 69c08c0ea5ab5d1bbf56fadb3d6276a0c642fcede2100dd8e2140b4dd3f7f63f
+Size: 4022984
+MD5sum: 75cf5d89f9edb1286fc48b36a367e42d
+SHA1: 2a0d3d7c5f23a14568a92eea56f9de52d50c55d6
+SHA256: 94adf2046df39f027f536c8d8dd89b134a94af83903e4328e5c507f9efb93b77
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
