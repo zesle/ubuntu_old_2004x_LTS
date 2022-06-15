@@ -4,43 +4,43 @@ Hash: SHA512
 Origin: Zesle Software Inc
 Label: ZesleCP Repo
 Suite: all
-Version: 20.04
+Version: 
 Codename: all
 Architecture: amd64
 Component: main
-Description: ZesleCP All 20.04
-Date: Tue, 07 Jun 2022 01:01:08 +0000
+Description: ZesleCP All 
+Date: Wed, 15 Jun 2022 15:50:06 +0000
 MD5Sum:
- 41bdaaa927dabfe08747c2d3f8087a94              192 Release
+ 277b414dd9822b1feac535d0189e54c0              182 Release
  ff3269a16a345dca84f16f0b7f2b45a0             2404 main/binary-amd64/Packages
  ad0c42272846858651ea5c6b03c374d3             1348 main/binary-amd64/Packages.bz2
- a6726af33b8f3b419fa00bf18e62359f             1249 main/binary-amd64/Packages.gz
+ 7b2f198f5bcae4e303f1be55e400f7a5             1249 main/binary-amd64/Packages.gz
 SHA1:
- 7db9ec3dbc81e068c52b1f0f115c9a71a69563ff              192 Release
+ 5abffeafc488cb70c83acfc4af705aefd80e9d86              182 Release
  6978914e6ebc5ff0c0c6a70b0db95fac2daf583b             2404 main/binary-amd64/Packages
  94338b3dbad2f42410ad98ec3ef071eeb5d50be7             1348 main/binary-amd64/Packages.bz2
- 2945712bf224e71ab1b39e3f8bffc9bcf7ec3a8d             1249 main/binary-amd64/Packages.gz
+ 9ad992b460a0e757d916dbd3a83a19ac59e13598             1249 main/binary-amd64/Packages.gz
 SHA256:
- 45d38dca05f58b2462939c5b1674f62644eacc73700f01b0a0c929767031b5b9              192 Release
+ 1c5a71948f7f96a7ce40b605d26c219c6b855c3150c19673bd07ccfe6acc7334              182 Release
  8fd12c4d8e8fdd986a1112d4404941e8c86aa7d9059f02e17ac278c96b149270             2404 main/binary-amd64/Packages
  f5442ce8fa6a6b12ae1181dfc4621ccbd0c5c4540cadb5825d9dfd0de6b2bce2             1348 main/binary-amd64/Packages.bz2
- ff80f176f8ddb6625b04961eae236e2717f98cf9a18cbbb754e868460cb82234             1249 main/binary-amd64/Packages.gz
+ 0924df6af7966ed9df14971eee0b002c11c64a5e64563dfa9a1e688cb72a7736             1249 main/binary-amd64/Packages.gz
 SHA512:
- 4e69f4efce28108d1022eaa52485c231b6769f7e8c0f71720cfbeeebf92544effd91c3ed5bc202b0be3aece0a764164db5967eaa083427fb08f8dab1cfb450fe              192 Release
+ 81cc46cf3b818d40bb5dab2ad76e7a812f8fc45204ad6aa4ef7a7d00767ce8df99b9ee88ab958a1d0dcb8fd938a6854f3d9f0b782fea535225bffbaf277bb50c              182 Release
  e52351dc204c7bc703e1c6abbd7bd57133a7ac12358cc9779851e40ae4b3952894e0ca2d2e416395fee33de2c2ea8e7f12b6a0cbc458e8a4948edfd2b8134686             2404 main/binary-amd64/Packages
  5c9489bfc797f0224c5262c9226925be5d094b2cda5907ea17f40277137db4e1f84108f89dff400935396c04da54f5b9f81c1553c8ef320b0678f57dd6a171c2             1348 main/binary-amd64/Packages.bz2
- 9e11c4988f87be08f525689ffd91f6838ec6d444e8c09e744ee5bbfe57fa7da37200b88cb164bbed8e1ec2fb62555e072cf56b2eb927757d71edfe76167c46c8             1249 main/binary-amd64/Packages.gz
+ e3bc8a6936f8cf8e2e83e55f702f1d64844115cfd9121e35b103da7f913e0dacb83964efe52dc86573a1ba5c60da22b9fa94eef7eebfbf2c7f129be588b4684c             1249 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmKeo1QACgkQIWl7FNN5
-scNipAv+MtM4AQoyG5mdF7wjP653yRrihmKSllg0k7xifGZdhQXfAJhOJxPtFu7D
-N15pt7isMZzkuD5NJ3GZji9iCopYNlKw/7MI4/BDbhOl2snmWxKwz9JtU/vmGTCS
-4JMN9O62c/6Lkx1Py5fRfHoyN5nLPJawMoEs3AhLvVv5bGygAUMCFVCRr1wZf7Ji
-Sj6CXCDs/xWbV4rs68leQM8VBcoY8n19fgotgOgw+wCp2INvTzfWYlnCfQzlH0Fk
-dbQOl0ZwWOB0FzGNMeb+trUNruUPQxzuFap9W7U4rinf50eZ35LBJTVvNsrwr1G8
-+pRcL6TtTWZafcJnLhYT31bLwE6jucZT5LIHEbFiupDj8MgGz4SsOziCwnblXjQK
-9rHhMbbfyxZqLK/o0j5OYYyGjnMSbkL+YRZT1JCz8FDtbKoQN2HtWMh25qJaD26T
-Oc74Svh134HM/Z4YzEGK1Ndz+pXAYsdyIFY9mtkeYDBXDA7u3aa3PZ4AS3GuzUy+
-AHXT8du/
-=mXAe
+iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmKp/64ACgkQIWl7FNN5
+scNrAAwAlNTZEe99J7WBSU3OB6GaDya694rLbZFClL6+rJaCzS965JQK15AI2uJ6
+gmRIOa4gqTZ/YQOvc18cc5cZXqIQ1/MMk80BGKrLrBvmWjjQ72IxERuIoMXuSe+X
+gOCGAGlDoSNu65WnPTCZNlRY+RZ34P5r3K0U4CalWx74yOmqh/n3eZLkC7xE/zJo
+rLNS5NbyDbwg8/l12zYbWNwULRqtk6On/wa4uQfNuLBVgZgBFmLNlV0izvfSes6d
+/oCOZPApU+RE/FbH5sStblvkMHGCGdcel0eMw4XN3Z1L4txeUb/QQZpgIs287/WG
+KobhOZRpyRgv3ezmUci1qXISqXthR1TTupWAarsMQZfdDT6UKYV1Wz+EU+5EIFgR
+79sMxbXQYMKcPZMNrZ9CA6WFpmhCrdesoLB8yasfypcO35goE4mMA9MpoOJMs79i
+IPp8LuvNuAO+Xcuv2JpR6QVzJUKKui+e7PTnSbhoISGYZ1WJNLALMNIOK6OHta2K
+JHLyYDL3
+=Xzy0
 -----END PGP SIGNATURE-----
