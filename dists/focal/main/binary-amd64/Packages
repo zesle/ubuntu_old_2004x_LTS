@@ -10303,6 +10303,28 @@ Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
  database-enabled webpage with PHP is fairly simple. The most common
  use of PHP coding is probably as a replacement for CGI scripts.
 
+Package: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 78
+Depends: ze-php80-fpm | ze-php80-cgi, ze-php80-common
+Provides: php
+Filename: pool/focal/main/ze-php80_8.0.25-2_amd64.deb
+Size: 19888
+MD5sum: 9ebcd117717925cec24b67c5253d1d1b
+SHA1: f793c8efb58de14e80f70ecda5f2010260cea8d0
+SHA256: 29571cd912a42fc027d8592d9047acc30a6099d0123ad25507721c9f85d0f1d1
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
+ easy for developers to write dynamically generated web pages. PHP also
+ offers built-in database integration for several commercial and
+ non-commercial database management systems, so writing a
+ database-enabled webpage with PHP is fairly simple. The most common
+ use of PHP coding is probably as a replacement for CGI scripts.
+
 Package: ze-php80-bcmath
 Source: ze-php80
 Version: 8.0.18-4
@@ -10333,6 +10355,24 @@ Size: 14420
 MD5sum: 467486986b28ef643cf99b5b1d0bc1ce
 SHA1: 6fe0ba00a91695756764c395aaaf36ce9db939af
 SHA256: 27e85b07b839f6b5c26fc7606fe77f51872267df9d24813c5a1491c1cd4f62d8
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-bcmath package contains a dynamic shared object that will add
+    support for using the bcmath library to PHP.
+
+Package: ze-php80-bcmath
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 58
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-bcmath_8.0.25-2_amd64.deb
+Size: 14416
+MD5sum: 0e49320c39934a73e403fd66459308f6
+SHA1: 584f19b45b9bb3af4abfefcef243a432de05338f
+SHA256: 9a7fddc6f1a351634af364925d1d434fc2774deb7e400247468ab61b3348a7cf
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10377,6 +10417,25 @@ Homepage: http://www.php.net/
 Description: The php-bz2 package delivers a module which will allow PHP scripts to
     interface with .bz2 files.
 
+Package: ze-php80-bz2
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 50
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-bz2
+Filename: pool/focal/main/ze-php80-bz2_8.0.25-2_amd64.deb
+Size: 9612
+MD5sum: dc7f9595886190e995f2f2becc749a30
+SHA1: 9b69706322eb0c01aed5af4afe3e5f88a38baf60
+SHA256: ded960407bb8d7879c94882f716b2703ea64d3780bd3ac021306ea7e380a6841
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-bz2 package delivers a module which will allow PHP scripts to
+    interface with .bz2 files.
+
 Package: ze-php80-calendar
 Source: ze-php80
 Version: 8.0.18-4
@@ -10409,6 +10468,25 @@ Size: 11728
 MD5sum: 87a3a268219d334978b944c446c1a4be
 SHA1: cc7259544309d35d3d446df5c4c58626f655e696
 SHA256: 80ea40b83b3bd491c52a6164b04bb210db5e2fcc7a014d1ec70cb2d05fdcd319
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-calendar package delivers a module which will allow PHP scripts to
+    do date and time conversions and calculations.
+
+Package: ze-php80-calendar
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 54
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-calendar
+Filename: pool/focal/main/ze-php80-calendar_8.0.25-2_amd64.deb
+Size: 11736
+MD5sum: 870fa46eef182cbe1ca209966a08b42b
+SHA1: 288498a04116cf9567bb8c806e632d260d725ea9
+SHA256: cbc692039d08a0e04ced2b9ef2b393e676386e87b9f043010cce5627b1924b45
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10453,6 +10531,25 @@ Homepage: http://www.php.net/
 Description: The php-cli package contains the command-line interface
     executing PHP scripts, /usr/bin/php, and the CGI interface.
 
+Package: ze-php80-cli
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 10589
+Depends: ze-php80-common
+Provides: ze-php80-cgi, ze-php80-pcntl, ze-php80-readline
+Filename: pool/focal/main/ze-php80-cli_8.0.25-2_amd64.deb
+Size: 1941032
+MD5sum: 2d1059970176c81ee9a6d49c512b7fd0
+SHA1: 5e1094d2aad7c7f15dc34172e4962fdcf5761975
+SHA256: b98fdcc23e69612184d1e5429349a1c11bc58fcb50d456cf24e37468ffafa500
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-cli package contains the command-line interface
+    executing PHP scripts, /usr/bin/php, and the CGI interface.
+
 Package: ze-php80-common
 Source: ze-php80
 Version: 8.0.18-4
@@ -10483,6 +10580,24 @@ Size: 106724
 MD5sum: a466a175490eb28ca8029fb2282b9131
 SHA1: cc8fd361d2bbb29bc9760e8360428bed3ce68a38
 SHA256: e10e578d5029e0c9bd194aaa76a9f7adc0d23982c107b248ec879a99dd33d3af
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-common package contains files used by both
+    the ze-php80 package and the php-cli package.
+
+Package: ze-php80-common
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 354
+Provides: ze-php80-core, ze-php80-ctype, ze-php80-date, ze-php80-filter, ze-php80-gmp, ze-php80-hash, ze-php80-json, ze-php80-libxml, ze-php80-mhash, ze-php80-openssl, ze-php80-pcre, ze-php80-phar, ze-php80-reflection, ze-php80-session, ze-php80-spl, ze-php80-standard, ze-php80-tokenizer, ze-php80-zlib
+Filename: pool/focal/main/ze-php80-common_8.0.25-2_amd64.deb
+Size: 106784
+MD5sum: 397a6a079fd34902dd38f70a9d8cfb1f
+SHA1: 6e2cc3894c495913906309edcce7839662a361c4
+SHA256: be9c2ecc4b4f277cd188a7b5804329cba01e1c113fa3fae0b96b7d18c7f3879d
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10535,6 +10650,29 @@ Description: The php-curl package delivers a module which will allow PHP
     PUT, FTP uploading, HTTP form based upload, proxies, cookies, and
     user+password authentication.
 
+Package: ze-php80-curl
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 130
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-curl_8.0.25-2_amd64.deb
+Size: 31980
+MD5sum: 5a685f875754edc10bc841f9f114c367
+SHA1: c0f5778dc3fc53c536e2ca3f3b327d511b20bfc7
+SHA256: e6aa5642e2429227ae1b1097b08b19e115e37e4d0a49b4180707ffa8d1289aa0
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-curl package delivers a module which will allow PHP
+    scripts to connect and communicate to many different types of servers
+    with many different types of protocols. libcurl currently supports the
+    http, https, ftp, gopher, telnet, dict, file, and ldap
+    protocols. libcurl also supports HTTPS certificates, HTTP POST, HTTP
+    PUT, FTP uploading, HTTP form based upload, proxies, cookies, and
+    user+password authentication.
+
 Package: ze-php80-dba
 Source: ze-php80
 Version: 8.0.18-4
@@ -10571,6 +10709,24 @@ Homepage: http://www.php.net/
 Description: The ze-php80-dba package contains a dynamic shared object that will add
     support for using the DBA database abstraction layer to PHP.
 
+Package: ze-php80-dba
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 74
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-dba_8.0.25-2_amd64.deb
+Size: 20004
+MD5sum: 6d6cc0f428e8ee280a1394c10858f149
+SHA1: b08a50b0ff0fa20d60a8feeffe247fed5f16176f
+SHA256: 3a7ab0c0f78a316b5ad5ce8bb8f8a842b6ce8c9ee722396362cd2c4b1b6ae17c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-dba package contains a dynamic shared object that will add
+    support for using the DBA database abstraction layer to PHP.
+
 Package: ze-php80-dbg
 Source: ze-php80
 Version: 8.0.18-4
@@ -10600,6 +10756,23 @@ Size: 1673476
 MD5sum: 2b6a7265ec1482f458c3beff1d7c454c
 SHA1: 149b04f150d3b0e21e8ccb9cc3cc3acf8fada51d
 SHA256: a23fc131ea8c1ea299da47903c4a968510e1f8fcf7f6e43e975b0e58b22e5936
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-dbg package contains the interactive PHP debugger.
+
+Package: ze-php80-dbg
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5457
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-dbg_8.0.25-2_amd64.deb
+Size: 1675224
+MD5sum: 329de641e2672386b504f7282f090fec
+SHA1: 9635c57ca2e2806dc1e400a8f89c483c4b2a8032
+SHA256: b52e6d0a3eaf4c2f9e6d4428d3556357cf82bd97cd7179272cd68dca52f04b06
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10643,6 +10816,25 @@ Description: The ze-php80-devel package contains the files needed for building P
     extensions. If you need to compile your own PHP extensions, you will
     need to install this package.
 
+Package: ze-php80-dev
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5954
+Depends: ze-php80-cli
+Filename: pool/focal/main/ze-php80-dev_8.0.25-2_amd64.deb
+Size: 637384
+MD5sum: 19947bb867f6de2cae0a6e73f56f58d3
+SHA1: 0121263344a25d621311cf047e63223d56d53c71
+SHA256: d40b36c3dccfae6fa1c3ec9a3578eb01d94dc1cf07abb77b7b01e43dafe87d88
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-devel package contains the files needed for building PHP
+    extensions. If you need to compile your own PHP extensions, you will
+    need to install this package.
+
 Package: ze-php80-embedded
 Source: ze-php80
 Version: 8.0.18-4
@@ -10673,6 +10865,24 @@ Size: 1573492
 MD5sum: 4c9810ce50e7448850cd42e02a0e02ff
 SHA1: 0cca6b17da3675c15ec8f94bf9f125c9be830abf
 SHA256: a3ca7e69a78b56ca205a28385992fff8bd3528cbb3bc3a3f0a1fe60ac33ee58e
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-embedded package contains a library which can be embedded
+    into applications to provide PHP scripting language support.
+
+Package: ze-php80-embedded
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 10355
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-embedded_8.0.25-2_amd64.deb
+Size: 1576172
+MD5sum: d2d4a7390bc71c82cb20eff6d7a693c4
+SHA1: 3b3aa2731e2e56b9d5fd68bad3f25e3da33bac1c
+SHA256: 2bb541fa8f017a3dd22ac6779e2d1cfc6b89a58e8840eb39bb5857e2adba817c
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10715,6 +10925,24 @@ Homepage: http://www.php.net/
 Description: The ze-php80-enchant package contains a dynamic shared object that will add
     support for using the enchant library to PHP.
 
+Package: ze-php80-enchant
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-enchant_8.0.25-2_amd64.deb
+Size: 8476
+MD5sum: d43c9ac17cefb23362cf2ff94795ac4c
+SHA1: 8dec42e9db810850d3207bd0290651a77b1bb816
+SHA256: 15eeeeff794c6cd97ac03c045f52e22fa677b4c402ad9e89d55764c7a895cb8b
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-enchant package contains a dynamic shared object that will add
+    support for using the enchant library to PHP.
+
 Package: ze-php80-exif
 Source: ze-php80
 Version: 8.0.18-4
@@ -10749,6 +10977,27 @@ Size: 28044
 MD5sum: 64eb5c6d33177fc0ad80bf7939c5c061
 SHA1: 83b6a34d20aa8716c9139a3e2cf28dc9921f4f0b
 SHA256: dc973f17ae31c42e7a2c7476aa0abab69d97c5a4c275dbbcc33717db47e76ee6
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-exif package delivers a module which will allow PHP scripts to
+    work with image meta data. For example, you may use exif functions to
+    read meta data of pictures taken from digital cameras by working with
+    information stored in the headers of the JPEG and TIFF images.
+
+Package: ze-php80-exif
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 110
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-exif
+Filename: pool/focal/main/ze-php80-exif_8.0.25-2_amd64.deb
+Size: 27912
+MD5sum: 20053bd4dfb4ed11f7120dadec207845
+SHA1: e9d523e88c4067532a0952a5981198726eea08fc
+SHA256: 9281c0dabfc72c1dd6afc8deef6e2f18458c5bfeaac2167e5460bb7fd9f489c9
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10801,6 +11050,28 @@ Description: The php-fileinfo package delivers a module which will allow PHP
     the file. While this is not a bullet proof approach the heuristics
     used do a very good job.
 
+Package: ze-php80-fileinfo
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 6650
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-fileinfo
+Filename: pool/focal/main/ze-php80-fileinfo_8.0.25-2_amd64.deb
+Size: 277816
+MD5sum: 38cebb73ee5c595a3a5028f96b597cbb
+SHA1: 6fade0c4b66b2d080c3250c744a60291ab410679
+SHA256: 6f65f14674c0cfceba9d4d2b04e487f5627ac21c815db79566d94ba4d8e83052
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-fileinfo package delivers a module which will allow PHP
+    scripts to try to guess the content type and encoding of a file by
+    looking for certain magic byte sequences at specific positions within
+    the file. While this is not a bullet proof approach the heuristics
+    used do a very good job.
+
 Package: ze-php80-fpm
 Source: ze-php80
 Version: 8.0.18-4
@@ -10832,6 +11103,25 @@ Size: 1658080
 MD5sum: fb9df8cf6036386c97a9b1dea3f59fda
 SHA1: 17020bac7af7d5132135545795905c358d8df718
 SHA256: bf49e7aa4fa64f482dad27f9b6e5ffafd21c79b229850f2aad8f5698bca17ef9
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
+    implementation with some additional features useful for sites of
+    any size, especially busier sites.
+
+Package: ze-php80-fpm
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5482
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-fpm_8.0.25-2_amd64.deb
+Size: 1659664
+MD5sum: a0af83fe890e77004447d58e4fe40c7d
+SHA1: 87d83502e28d2b326532db7854ddd00a51bf0d6f
+SHA256: 54e6641843833ab599329ba4919d5ce59b19a2e7b3d64a48f45c0331d02ef4dd
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10889,6 +11179,31 @@ Description: The php-ftp package delivers a module which will allow PHP scripts
     with the ze-php80-filesystem package which provides a simpler
     and more intuitive interface.
 
+Package: ze-php80-ftp
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 86
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-ftp
+Filename: pool/focal/main/ze-php80-ftp_8.0.25-2_amd64.deb
+Size: 20040
+MD5sum: 2eea53ea38a47c8f4d4c2192f09af06a
+SHA1: 54d70822f9030f1a71282d202ab129f91f274a2c
+SHA256: 31f86d52e4c6963724bf5a75f47543b171c951b31080d68e876aeab4e4985888
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-ftp package delivers a module which will allow PHP scripts
+    client access to files servers speaking the File Transfer Protocol
+    (FTP) as defined in http://www.faqs.org/rfcs/rfc959. This extension is
+    meant for detailed access to an FTP server providing a wide range of
+    control to the executing script. If you only wish to read from or
+    write to a file on an FTP server, consider using the ftp:// wrapper
+    with the ze-php80-filesystem package which provides a simpler
+    and more intuitive interface.
+
 Package: ze-php80-gd
 Source: ze-php80
 Version: 8.0.18-4
@@ -10919,6 +11234,24 @@ Size: 107460
 MD5sum: 2816f092e15c531191cc70c8643d0e57
 SHA1: 866ea6a8102660493f61f33c7b687ff191e25d02
 SHA256: b669ca7401be1ebf73c6e99df20e0f7088e65744fc5ca0c6c288569908d512cd
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-gd package contains a dynamic shared object that will add
+    support for using the gd graphics library to PHP.
+
+Package: ze-php80-gd
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 406
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-gd_8.0.25-2_amd64.deb
+Size: 107528
+MD5sum: cd621693bc131bc76ceca00e69ea11fa
+SHA1: 2cc2572b947f8a3cfadad1230bb9719afe323253
+SHA256: f99555a78a8fac29c9bf453a92f02b4a05f6a84f61fca21073eac5340806cc6a
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10971,6 +11304,29 @@ Description: The php-gettext package delivers a module which will allow PHP scri
     functions or view the docs at
     http://www.gnu.org/software/gettext/manual/gettext.html.
 
+Package: ze-php80-gettext
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 38
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-gettext
+Filename: pool/focal/main/ze-php80-gettext_8.0.25-2_amd64.deb
+Size: 5748
+MD5sum: 5b8f80f21807f6684e7a8b3635fc5f96
+SHA1: 63994ce28bab2462fbf1a04c93559034e02fe1a3
+SHA256: 21a3df6c24681674d70ca48d77e8d6216aef0f7a3d91f19522b7004ea22fce61
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-gettext package delivers a module which will allow PHP scripts
+    to access an NLS (Native Language Support) API which can be used to
+    internationalize your PHP applications. Please see the gettext
+    documentation for your system for a thorough explanation of these
+    functions or view the docs at
+    http://www.gnu.org/software/gettext/manual/gettext.html.
+
 Package: ze-php80-gmp
 Source: ze-php80
 Version: 8.0.18-4
@@ -11001,6 +11357,24 @@ Size: 20860
 MD5sum: ce9451f2cce5014f3a32a10cb69ebdef
 SHA1: c757098eef6ede6bfa9298d1fae9f5b4e76072da
 SHA256: 2767c6bcf582f1003974d44400a56632dbf50880336ecaccd349bfabcaaa0b02
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: These functions allow you to work with arbitrary-length integers
+    using the GNU MP library.
+
+Package: ze-php80-gmp
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 102
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-gmp_8.0.25-2_amd64.deb
+Size: 21084
+MD5sum: 9ee849c0e8c3d09b38013f310d1d278f
+SHA1: d5c4f348ede17c7fcf112dc0982597999bfd9bf4
+SHA256: bfd970c62c56c9815697de98949b00c8a29750a675d87eebdc069ba6a1e71b7b
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11046,6 +11420,32 @@ Size: 17796
 MD5sum: 83f11f8fa06504e03427d29c535dc125
 SHA1: fc63cfe4e9be377b9a7367038f45bad5e0504884
 SHA256: b0135c489c5e6701900b4a462e3c4ed994420a40eeb7f4f3fab165f1a1fac5a8
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-iconv package delivers a module which will allow PHP scripts
+    to access the iconv character set conversion facility. With this
+    module, you can turn a string represented by a local character set
+    into the one represented by another character set, which may be the
+    Unicode character set. Supported character sets depend on the iconv
+    implementation of your system. Note that the iconv function on some
+    systems may not work as you expect. In such case, it would be a good
+    idea to install the GNU libiconv library. It will most likely end up
+    with more consistent results.
+
+Package: ze-php80-iconv
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 70
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-iconv
+Filename: pool/focal/main/ze-php80-iconv_8.0.25-2_amd64.deb
+Size: 17812
+MD5sum: 13e24e1c991faaa6705229f8fd9c1b90
+SHA1: 5602135562abce7dda7ed4da6b08962cced15a69
+SHA256: 121ec100d887da7e9aae47471bb0b9e40c37a38ed20379ce665219671f27d57b
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11117,6 +11517,26 @@ Description: The ze-php80-imap module will add IMAP (Internet Message Access Pro
     support to PHP. IMAP is a protocol for retrieving and uploading e-mail
     messages on mail servers. PHP is an HTML-embedded scripting language.
 
+Package: ze-php80-imap
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 118
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-imap
+Filename: pool/focal/main/ze-php80-imap_8.0.25-2_amd64.deb
+Size: 30012
+MD5sum: 9da77e42089ba6edb4aa87d812fa01dd
+SHA1: 1dcc92b9a35202686710ebe720db5f15cb8d22cf
+SHA256: 6ad29c20a161b5e9663824d08239316d4dc397649d244c72d9f857290fcb1054
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-imap module will add IMAP (Internet Message Access Protocol)
+    support to PHP. IMAP is a protocol for retrieving and uploading e-mail
+    messages on mail servers. PHP is an HTML-embedded scripting language.
+
 Package: ze-php80-intl
 Source: ze-php80
 Version: 8.0.18-4
@@ -11147,6 +11567,24 @@ Size: 122604
 MD5sum: 977b3b70391a0be677a200aab2a79fac
 SHA1: 5ff67f1a27625605d1f3d83e3fe432d05f51fe40
 SHA256: d0e528363442bad0990d6fdde02afc6a034bc103209eeb40025d261d2bae0a3c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-intl package contains a dynamic shared object that will add
+    support for using the ICU library to PHP.
+
+Package: ze-php80-intl
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 486
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-intl_8.0.25-2_amd64.deb
+Size: 123188
+MD5sum: bf82fcfc83d76f5c1ce703e54c204565
+SHA1: cb75aac262fa316025ef389e2d89b7955db4fe91
+SHA256: 3312333f05e2a8218e4574a1dc7d1c04da566c608dfc3577c2dde261c98b49fc
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11193,6 +11631,26 @@ Description: The ze-php80-ldap package adds Lightweight Directory Access Protoco
     services over the Internet. PHP is an HTML-embedded scripting
     language.
 
+Package: ze-php80-ldap
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 114
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-ldap_8.0.25-2_amd64.deb
+Size: 27776
+MD5sum: 7644d59bbf0d9321eecf0d2297984133
+SHA1: 08dafaa2974bc84f1ff330c1bd2211f03d7c0989
+SHA256: 2255bc800d13f5d2a02995eccaed903ec604a75c24e0887257b1a2e62d19ddd0
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-ldap package adds Lightweight Directory Access Protocol (LDAP)
+    support to PHP. LDAP is a set of protocols for accessing directory
+    services over the Internet. PHP is an HTML-embedded scripting
+    language.
+
 Package: ze-php80-litespeed
 Source: ze-php80
 Version: 8.0.18-4
@@ -11223,6 +11681,24 @@ Size: 1598768
 MD5sum: 2c07ec2bc76adab72e81d01379e33036
 SHA1: ea3d94055c85f9d6eb423f4013327e21ff6ff319
 SHA256: 7cb4ae942687c1f6d78dfac66bf8e86021f1545e22a808829dd0a8e0b288e2d9
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-litespeed package provides the /lsphp command
+    used by the LiteSpeed Web Server (LSAPI enabled PHP).
+
+Package: ze-php80-litespeed
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5238
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-litespeed_8.0.25-2_amd64.deb
+Size: 1602192
+MD5sum: 66370f29323920b04eba4886b85c8011
+SHA1: c9e103ac1fd7ceb35d073c15da1da279c40a7b57
+SHA256: ed7629f69289d3b3cec8eea4c8048938d6092acca4af7a11f4c94d4b3d871fc4
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11265,6 +11741,24 @@ Homepage: http://www.php.net/
 Description: The ze-php80-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
 
+Package: ze-php80-mbstring
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1036
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-mbstring_8.0.25-2_amd64.deb
+Size: 394436
+MD5sum: 29579f548a1fedd3af9dfd398d1a2595
+SHA1: 66e37627f5d854e74b70c65b85e5f63e6dc5d2a8
+SHA256: 8fdfb435c1729557b45623717809524671d4f103919b9b8b2af803f6641d754a
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-mbstring package contains a dynamic shared object that will add
+    support for multi-byte string handling to PHP.
+
 Package: ze-php80-mysqlnd
 Source: ze-php80
 Version: 8.0.18-4
@@ -11300,6 +11794,28 @@ Size: 120336
 MD5sum: 993a94481cf42d780b7f8ceb072a9f7a
 SHA1: b4666f6b906ca5e9466555e6472fb8a24c1f687a
 SHA256: a8a40c94858281b2372c150e71f96a430be0cd6adafcd215824611966098ac7c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-mysqlnd package contains a dynamic shared object that will add
+    MySQL database support to PHP. MySQL is an object-relational database
+    management system. PHP is an HTML-embeddable scripting language. If
+    you need MySQL support for PHP applications, you will need to install
+    this package and the php package. This package use the MySQL Native Driver
+
+Package: ze-php80-mysqlnd
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 457
+Depends: ze-php80-pdo
+Provides: ze-php80-mysql, ze-php80-mysqli
+Filename: pool/focal/main/ze-php80-mysqlnd_8.0.25-2_amd64.deb
+Size: 120360
+MD5sum: 1990c8cd9c354a6a54ab4538765b26ae
+SHA1: 26c7374bc399889b7cb984b471e2b1474b08cea5
+SHA256: 3c3bf95b7603ba4d9e508d27e068d1ef5e3dd0581b257ff2ca3bf751f7d47b14
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11355,6 +11871,29 @@ Description: The ze-php80-odbc package contains a dynamic shared object that wil
     applications, you will need to install this package and the php
     package.
 
+Package: ze-php80-odbc
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 126
+Depends: ze-php80-pdo
+Filename: pool/focal/main/ze-php80-odbc_8.0.25-2_amd64.deb
+Size: 30140
+MD5sum: 4d644c305d4446f200090f2231b87d66
+SHA1: eac7a4f18c13d485f5615d706ba059878d782cbb
+SHA256: c2af9b4ea00284229db31bcc08fa1c451da930266a5531feb9b3f31cb03b6bd2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-odbc package contains a dynamic shared object that will add
+    database support through ODBC to PHP. ODBC is an open specification
+    which provides a consistent API for developers to use for accessing
+    data sources (which are often, but not always, databases). PHP is an
+    HTML-embeddable scripting language. If you need ODBC support for PHP
+    applications, you will need to install this package and the php
+    package.
+
 Package: ze-php80-opcache
 Source: ze-php80
 Version: 8.0.18-4
@@ -11388,6 +11927,27 @@ Size: 463180
 MD5sum: 1ca09e5ed0bc3980641178ceac23de10
 SHA1: 2ccfa8d86da5453ab973bc508298c7149081420d
 SHA256: 4a287e68de1403329670856f28468fb071e54a56399521986d1413736b98e1a2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The Zend OPcache provides faster PHP execution through opcode caching and
+    optimization. It improves PHP performance by storing precompiled script
+    bytecode in the shared memory. This eliminates the stages of reading code from
+    the disk and compiling it on future access. In addition, it applies a few
+    bytecode optimization patterns that make code execution faster.
+
+Package: ze-php80-opcache
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1363
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-opcache_8.0.25-2_amd64.deb
+Size: 463940
+MD5sum: 4214c468452a2d23391afd7ca656e7e6
+SHA1: e1469a6ce8ea8a23d94cd9a467e7aa996201b041
+SHA256: 4176a73d18826e4b656f59f68ab2bec2bb0005ec0c5a7f857369498454ac8ada
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11431,6 +11991,27 @@ Size: 62204
 MD5sum: 7055edc23c58b2df010ad116a3a9d345
 SHA1: 24d57d7c8bfde69e65fc73d8353cd0f44052654b
 SHA256: 3790cd854d72d8b616b652bf7128cb8b5967d8abafaf242a18314dba3a29646e
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-pdo package contains a dynamic shared object that will add
+    a database access abstraction layer to PHP.  This module provides
+    a common interface for accessing MySQL, PostgreSQL or other
+    databases.
+
+Package: ze-php80-pdo
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 246
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-sqlite3
+Filename: pool/focal/main/ze-php80-pdo_8.0.25-2_amd64.deb
+Size: 62432
+MD5sum: 23161cc12675d8936fabd8c71fe8af3b
+SHA1: d71055ee994d037c841641a39edd5d8ffb1076df
+SHA256: 34e3deb9e315d5228510e0893d32166fff55966aa2c42d686a15653a1a8f5649
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11483,6 +12064,28 @@ Description: The ze-php80-pgsql package add PostgreSQL database support to PHP.
     PostgreSQL, you should install this package in addition to the main
     php package.
 
+Package: ze-php80-pgsql
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 214
+Depends: ze-php80-pdo
+Filename: pool/focal/main/ze-php80-pgsql_8.0.25-2_amd64.deb
+Size: 56024
+MD5sum: 20c0da894ad4bc923ee26cf3279f0048
+SHA1: 58864ee245629c6a57b99142012908b460330300
+SHA256: 3b6839c1a18b23973206c77709ba18d291010be46a3190933d84929e9018bf64
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-pgsql package add PostgreSQL database support to PHP.
+    PostgreSQL is an object-relational database management
+    system that supports almost all SQL constructs. PHP is an
+    HTML-embedded scripting language. If you need back-end support for
+    PostgreSQL, you should install this package in addition to the main
+    php package.
+
 Package: ze-php80-posix
 Source: ze-php80
 Version: 8.0.18-4
@@ -11516,6 +12119,26 @@ Size: 10992
 MD5sum: cc4f6fb9447245b8aed3ad7ccc58892e
 SHA1: 7f0076caf5e3aabda8884179ffce427fc4b391f0
 SHA256: 5b1d48d6600cb938c25c8867edb0b12ad3d421f62f8dadc484d9373d99586a34
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-posix package adds a PHP interface to those functions defined
+    in the IEEE 1003.1 (POSIX.1) standards document which are not
+    accessible through other means.
+
+Package: ze-php80-posix
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 62
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-posix
+Filename: pool/focal/main/ze-php80-posix_8.0.25-2_amd64.deb
+Size: 10980
+MD5sum: 087ef583dbd8c78951b751c783ef1b49
+SHA1: 87170bf3b08e04f733c0b30b35387029dde66d01
+SHA256: d353fb8d077f1265eec3fb0c6d6a98dda68ec9c692cfd57b44922d52ecc06e1f
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11563,6 +12186,26 @@ Description: The ze-php80-process package contains dynamic shared objects which 
     support to PHP using system interfaces for inter-process
     communication.
 
+Package: ze-php80-process
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 102
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-shmop, ze-php80-sysvmsg, ze-php80-sysvsem, ze-php80-sysvshm
+Filename: pool/focal/main/ze-php80-process_8.0.25-2_amd64.deb
+Size: 14900
+MD5sum: aa4cc0da1bd7191d1baea831ab8c2b17
+SHA1: d513fb87a9710600afa1163142f15f5dd3572b03
+SHA256: 79d1ad4c7cc68c99f8c8b7dcbcbb4219c411bed66891a8a72350c7d7587fdf10
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-process package contains dynamic shared objects which add
+    support to PHP using system interfaces for inter-process
+    communication.
+
 Package: ze-php80-pspell
 Source: ze-php80
 Version: 8.0.18-4
@@ -11593,6 +12236,24 @@ Size: 7372
 MD5sum: 9b8f3bdd1d3b989a310d7a755bc617fe
 SHA1: aa5c61bf0b07da9b8fc12006c87ed601f8190d4c
 SHA256: fb49488f297d7df78a778083b424384895e6b78857ba8b4500c43a103d963379
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-pspell package contains a dynamic shared object that will add
+    support for using the pspell library to PHP.
+
+Package: ze-php80-pspell
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-pspell_8.0.25-2_amd64.deb
+Size: 7344
+MD5sum: 6d79bdbb5ec0f79d2b08031fda2fe842
+SHA1: 9beaebf63aa32a883de71672bccfbed4dd602fe9
+SHA256: 2e3b9c34b49f0144ba8c71605cc810288c443123454fe5daaa1e6a09b17b758e
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11639,6 +12300,26 @@ Description: The ze-php80-snmp package contains a dynamic shared object that wil
     scripting language. If you need SNMP support for PHP applications, you
     will need to install this package and the php package.
 
+Package: ze-php80-snmp
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 82
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-snmp_8.0.25-2_amd64.deb
+Size: 19036
+MD5sum: 221f26254b18b4d029015148deffb581
+SHA1: 1070ee02d5cde2245b8b4f71131db498e1b1da00
+SHA256: 489b8d25fcdf954dbf4f4c55df5a2570f9b874e1e9fa15301133c8bed1d93429
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-snmp package contains a dynamic shared object that will add
+    support for querying SNMP devices to PHP.  PHP is an HTML-embeddable
+    scripting language. If you need SNMP support for PHP applications, you
+    will need to install this package and the php package.
+
 Package: ze-php80-soap
 Source: ze-php80
 Version: 8.0.18-4
@@ -11669,6 +12350,24 @@ Size: 114392
 MD5sum: c87b5f3c2d17b7585146fdd9772d4885
 SHA1: 58025ecd237767c2427cb5f29ff1bce7e00795b4
 SHA256: bd8a478c18b3069b8b99a073a0c9c94cc1b6ff530267adcaf8ebfd130db60bae
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-soap package contains a dynamic shared object that will add
+    support to PHP for using the SOAP web services protocol.
+
+Package: ze-php80-soap
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 334
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-soap_8.0.25-2_amd64.deb
+Size: 114220
+MD5sum: c006ed2bc1ca6379473b27560c6af7ea
+SHA1: 8abcf7e3db8eea96b1ec0b7210818900b00b77df
+SHA256: 52259f3833f047c75792cc7e8a4e0459dacf39903f984302856378fbfc91c9a3
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11717,6 +12416,27 @@ Description: The php-sockets package delivers a module which will allow PHP scri
     based on the popular BSD sockets, providing the possibility to act as
     a socket server as well as a client.
 
+Package: ze-php80-sockets
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-sockets
+Filename: pool/focal/main/ze-php80-sockets_8.0.25-2_amd64.deb
+Size: 32664
+MD5sum: a785fbbf486978202cba60662df873f9
+SHA1: e0911cd06ca7e364463e89e22fc18cadf7dd70c5
+SHA256: 0a55a7d8496c1014c5be1ad133bcf17660e989d343eba8fbb0b29a661f4b4d76
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-sockets package delivers a module which will allow PHP scripts
+    access to a low-level interface to the socket communication functions
+    based on the popular BSD sockets, providing the possibility to act as
+    a socket server as well as a client.
+
 Package: ze-php80-sodium
 Source: ze-php80
 Version: 8.0.18-4
@@ -11753,6 +12473,24 @@ Homepage: http://www.php.net/
 Description: PHP binding to libsodium software library for encryption, decryption,
              signatures, password hashing and more.
 
+Package: ze-php80-sodium
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 118
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-sodium_8.0.25-2_amd64.deb
+Size: 22184
+MD5sum: b87dafa8d494090859c5818da76773ac
+SHA1: e50c153b4b65c5f680f76568ac1522856a428b02
+SHA256: 7feb1bd362d9de200278c878bf0ca98292ffc7da84614510656060de5271bfd3
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP binding to libsodium software library for encryption, decryption,
+             signatures, password hashing and more.
+
 Package: ze-php80-tidy
 Source: ze-php80
 Version: 8.0.18-4
@@ -11783,6 +12521,24 @@ Size: 17400
 MD5sum: 9b321aea8614d58f724e5182d8d5614a
 SHA1: 77f3d4145649a093634905a91b60f185ceac385c
 SHA256: 216e0ef94415b9fe810bffc16de09fc57b85d4e1dee337db10d0961fa65374a5
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-tidy package contains a dynamic shared object that will add
+    support for using the tidy library to PHP.
+
+Package: ze-php80-tidy
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 82
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-tidy_8.0.25-2_amd64.deb
+Size: 17328
+MD5sum: c24d178f4165147de93dfb856b83e6ba
+SHA1: 1f30d05821a5dc9a1b813f557695a9f9f9e3f113
+SHA256: b768b65d00af5f00082b69b37f82b130867018f3650a1677e9aa14c6ed2b9c94
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11829,6 +12585,26 @@ Description: The ze-php80-xml package contains dynamic shared objects which add 
     to PHP for manipulating XML documents using the DOM tree,
     and performing XSL transformations on XML documents.
 
+Package: ze-php80-xml
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 426
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-dom, ze-php80-domxml, ze-php80-simplexml, ze-php80-xmlreader, ze-php80-xmlwriter, ze-php80-xsl
+Filename: pool/focal/main/ze-php80-xml_8.0.25-2_amd64.deb
+Size: 96880
+MD5sum: 010328dba7d2f2bc4c4fd70e22fe878d
+SHA1: a609750c1d780e5e18409dd1e29e1bbe2924e384
+SHA256: ec9f2f08d2800f793a185bf5ca039916ed59f327529ada8c12caca327337f11b
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-xml package contains dynamic shared objects which add support
+    to PHP for manipulating XML documents using the DOM tree,
+    and performing XSL transformations on XML documents.
+
 Package: ze-php80-xmlrpc
 Source: ze-php80
 Version: 8.0.18-4
@@ -11859,6 +12635,24 @@ Size: 1436
 MD5sum: a654dcbff62dc052b0c986ca4aed3f7c
 SHA1: 0051928eabb386e56be74000062a7b21feef7c39
 SHA256: 0478f2541a8100487aab1aa1afba55ea539d398a213edd8fdf19bd1aa4f704ae
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-xmlrpc package contains a dynamic shared object that will add
+    support for the XML-RPC protocol to PHP.
+
+Package: ze-php80-xmlrpc
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 8
+Depends: ze-php80-common, ze-php80-cli
+Filename: pool/focal/main/ze-php80-xmlrpc_8.0.25-2_amd64.deb
+Size: 1432
+MD5sum: 902c80c6a2607288c1b91e51f8d2b168
+SHA1: 4a35c0895428da3c9d360b277b248e757d8bd84c
+SHA256: 50078c784961661016eba3762c9f0c0cd003844739817058ed5c16a5d18d518a
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -11898,6 +12692,26 @@ Size: 21948
 MD5sum: 95c3f2cec6dc6270a6a27f525c704a52
 SHA1: 250fbdab40fdfb0a11302c2bd2bab146bde42694
 SHA256: 7009ad5c412bf570f1110cc622de442dd3efd16cf0d9f9094eb08e604d10f9aa
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php80-zip package delivers a module which will allow PHP scripts
+    to transparently read or write ZIP compressed archives and the files
+    inside them.
+
+Package: ze-php80-zip
+Source: ze-php80
+Version: 8.0.25-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 94
+Depends: ze-php80-common, ze-php80-cli
+Provides: ze-php80-zip
+Filename: pool/focal/main/ze-php80-zip_8.0.25-2_amd64.deb
+Size: 22052
+MD5sum: bd79dbea2bc3783be4c400772b5805a3
+SHA1: 28755cebc12c41b308d26a6481ec0b5590341fe0
+SHA256: 42aaaaaaeef98823afcc7b622754d3f7e6dc8414b17c89b0273288062bd0c94d
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
