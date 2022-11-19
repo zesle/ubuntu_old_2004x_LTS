@@ -7826,6 +7826,28 @@ Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
  database-enabled webpage with PHP is fairly simple. The most common
  use of PHP coding is probably as a replacement for CGI scripts.
 
+Package: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 78
+Depends: ze-php74-fpm | ze-php74-cgi, ze-php74-common
+Provides: php
+Filename: pool/focal/main/ze-php74_7.4.33-2_amd64.deb
+Size: 19880
+MD5sum: 4e2e7c0781fb7b33ee35e1420ddb3c6d
+SHA1: 572ee6f109313284c3a1ac523751fdb67e8c5fe6
+SHA256: dd1140a57d4a27d5f9633257eb47727752a5a3278defe8352b8f45735477473c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
+ easy for developers to write dynamically generated web pages. PHP also
+ offers built-in database integration for several commercial and
+ non-commercial database management systems, so writing a
+ database-enabled webpage with PHP is fairly simple. The most common
+ use of PHP coding is probably as a replacement for CGI scripts.
+
 Package: ze-php74-bcmath
 Source: ze-php74
 Version: 7.4.29-3
@@ -7874,6 +7896,24 @@ Size: 14024
 MD5sum: be7ff8ab0a835abcdecf092b1e310093
 SHA1: ec2485a6d2375a678d9616e7f052d6a2dbcc2588
 SHA256: c0124092fbcd5fbf23050af8daacfe963bef65e93784fe22ae3e79819d226b05
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-bcmath package contains a dynamic shared object that will add
+    support for using the bcmath library to PHP.
+
+Package: ze-php74-bcmath
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 58
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-bcmath_7.4.33-2_amd64.deb
+Size: 14044
+MD5sum: 92b1da2103183051adc111755471195c
+SHA1: fc2d1c71a2ed6aeb1bea1e765b7405924f67a25a
+SHA256: 33370f974f6415f481568495f38212ec3845141811d4b86aa9762a8f599fb55c
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -7937,6 +7977,25 @@ Homepage: http://www.php.net/
 Description: The php-bz2 package delivers a module which will allow PHP scripts to
     interface with .bz2 files.
 
+Package: ze-php74-bz2
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 50
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-bz2
+Filename: pool/focal/main/ze-php74-bz2_7.4.33-2_amd64.deb
+Size: 9396
+MD5sum: 8269c685907e04c8f0b9fcf733e3113b
+SHA1: b7fcf5c693a04d08a6a3d518599a9aa7f5c4a705
+SHA256: 7e99c898f577ebc0e9caa08fd5cf3bbeefca9199b136821def37fa4653d35803
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-bz2 package delivers a module which will allow PHP scripts to
+    interface with .bz2 files.
+
 Package: ze-php74-calendar
 Source: ze-php74
 Version: 7.4.29-3
@@ -7988,6 +8047,25 @@ Size: 11764
 MD5sum: 6523d50c8f40095cccd8a153684351b0
 SHA1: f36fd43192830e9cf5ed732bc059260b17524035
 SHA256: 97eded33eab88ceaf4af9814114f529d996015d366bd19bd059d62b64436511c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-calendar package delivers a module which will allow PHP scripts to
+    do date and time conversions and calculations.
+
+Package: ze-php74-calendar
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 62
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-calendar
+Filename: pool/focal/main/ze-php74-calendar_7.4.33-2_amd64.deb
+Size: 11756
+MD5sum: 1d7cc8631c2b4aeadc52add960ab8ca0
+SHA1: 4b1dbd020e12199057a6c0addf27095f5dc3b157
+SHA256: 3b0ff118fd08fe12fc6df1b6887802bc5e1598626a9f79edf0b5cac0f478ebf0
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8051,6 +8129,25 @@ Homepage: http://www.php.net/
 Description: The php-cli package contains the command-line interface
     executing PHP scripts, /usr/bin/php, and the CGI interface.
 
+Package: ze-php74-cli
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 10248
+Depends: ze-php74-common
+Provides: ze-php74-cgi, ze-php74-pcntl, ze-php74-readline
+Filename: pool/focal/main/ze-php74-cli_7.4.33-2_amd64.deb
+Size: 1888932
+MD5sum: 55bb1f6fd3abba12b8c046287e3999f4
+SHA1: 694a6236b9f2de30a841b9941fcd26f2d2a19545
+SHA256: a2eefddd3b85b89c8f3de031551a8871d49234890d1a7e869f115482240200ba
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-cli package contains the command-line interface
+    executing PHP scripts, /usr/bin/php, and the CGI interface.
+
 Package: ze-php74-common
 Source: ze-php74
 Version: 7.4.29-3
@@ -8099,6 +8196,24 @@ Size: 118344
 MD5sum: 7b8220b5c79cb48f38b07afb0fe2bb80
 SHA1: e73d5a0e06d2507d00fbeea280507a877c1b93ff
 SHA256: d72f02490ec6c7ff5f00cf8242e42f0d40a2af0122071b92d482c99921e241e5
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-common package contains files used by both
+    the ze-php74 package and the php-cli package.
+
+Package: ze-php74-common
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 394
+Provides: ze-php74-core, ze-php74-ctype, ze-php74-date, ze-php74-filter, ze-php74-gmp, ze-php74-hash, ze-php74-json, ze-php74-libxml, ze-php74-mhash, ze-php74-openssl, ze-php74-pcre, ze-php74-phar, ze-php74-reflection, ze-php74-session, ze-php74-spl, ze-php74-standard, ze-php74-tokenizer, ze-php74-zlib
+Filename: pool/focal/main/ze-php74-common_7.4.33-2_amd64.deb
+Size: 118504
+MD5sum: f58b1a151090d82ce90bedb5141af1e0
+SHA1: 4ccdc19287c8c08a15162fd407c6909efbe853eb
+SHA256: 561f5ee97482658ad8b7b55c1a3ea3ccba55019e4f8b463342dbcc1d76729dbc
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8174,6 +8289,29 @@ Description: The php-curl package delivers a module which will allow PHP
     PUT, FTP uploading, HTTP form based upload, proxies, cookies, and
     user+password authentication.
 
+Package: ze-php74-curl
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-curl_7.4.33-2_amd64.deb
+Size: 29976
+MD5sum: 55d0078b5e01e589e3df8353dc1ac44c
+SHA1: 39634a30db8b438a84e1833d17724768a127547d
+SHA256: b904242162f417f816f6bca32c9e0e5bf6ef7f7d920c7295238fbf3ac7c50701
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-curl package delivers a module which will allow PHP
+    scripts to connect and communicate to many different types of servers
+    with many different types of protocols. libcurl currently supports the
+    http, https, ftp, gopher, telnet, dict, file, and ldap
+    protocols. libcurl also supports HTTPS certificates, HTTP POST, HTTP
+    PUT, FTP uploading, HTTP form based upload, proxies, cookies, and
+    user+password authentication.
+
 Package: ze-php74-dba
 Source: ze-php74
 Version: 7.4.29-3
@@ -8228,6 +8366,24 @@ Homepage: http://www.php.net/
 Description: The ze-php74-dba package contains a dynamic shared object that will add
     support for using the DBA database abstraction layer to PHP.
 
+Package: ze-php74-dba
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 78
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-dba_7.4.33-2_amd64.deb
+Size: 20060
+MD5sum: 1754e0711810bccce4ce0178287eb5b6
+SHA1: 7529998387971f071751b3204f198cf875b2c66c
+SHA256: d58830b1c6c51698b5173084709dd927ff343355b79eb76a73a949acd5da645c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-dba package contains a dynamic shared object that will add
+    support for using the DBA database abstraction layer to PHP.
+
 Package: ze-php74-dbg
 Source: ze-php74
 Version: 7.4.29-3
@@ -8274,6 +8430,23 @@ Size: 1635764
 MD5sum: 9b0b5c76270501a9b1f48340fc12cdd9
 SHA1: 3f9a633ba2eec8b146ff0fdb8a8456aef53a74a4
 SHA256: 942b08f69bb6523889496f58ab5166d65a844a772dc889d1e17297fbf9be6b77
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-dbg package contains the interactive PHP debugger.
+
+Package: ze-php74-dbg
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5293
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-dbg_7.4.33-2_amd64.deb
+Size: 1636036
+MD5sum: b7a798312e1896015a4836590d6d545a
+SHA1: eac513f2e8be6e110b3e33e78c39f2628445bfd3
+SHA256: 0b536de5aa70989d8ee5bca308b21e5b12e8077eaf0c0ffb260f08dd7cd65fba
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8336,6 +8509,25 @@ Description: The ze-php74-devel package contains the files needed for building P
     extensions. If you need to compile your own PHP extensions, you will
     need to install this package.
 
+Package: ze-php74-dev
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5637
+Depends: ze-php74-cli
+Filename: pool/focal/main/ze-php74-dev_7.4.33-2_amd64.deb
+Size: 599592
+MD5sum: 5e47afae3b3700a0a5fd6ff38101c1a8
+SHA1: a59acf29af580159f49f18a4447e5b7e201802fa
+SHA256: e012c92891f20257890bead35c87a6e345b84fdbd45b7d7686aae594f9c1dc93
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-devel package contains the files needed for building PHP
+    extensions. If you need to compile your own PHP extensions, you will
+    need to install this package.
+
 Package: ze-php74-embedded
 Source: ze-php74
 Version: 7.4.29-3
@@ -8390,6 +8582,24 @@ Homepage: http://www.php.net/
 Description: The ze-php74-embedded package contains a library which can be embedded
     into applications to provide PHP scripting language support.
 
+Package: ze-php74-embedded
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 10025
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-embedded_7.4.33-2_amd64.deb
+Size: 1536484
+MD5sum: d215595d3ee80f5f5404eb5830a76701
+SHA1: 4dd7e773d1ebea3054b285793c3ef51c345793c8
+SHA256: 13e9a8bc6f355483bcf540cdbad730c50943f67824147b19297b098779ebada8
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-embedded package contains a library which can be embedded
+    into applications to provide PHP scripting language support.
+
 Package: ze-php74-enchant
 Source: ze-php74
 Version: 7.4.29-3
@@ -8438,6 +8648,24 @@ Size: 7848
 MD5sum: b826876feb09d6b667ec2ab88334540d
 SHA1: fa22f8d380c656b30517a4b1bc528f405535f347
 SHA256: 8de4ac1267ed9295ded6328b20042a1b89848f4633f6fb82d9e9e44db60d8b67
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-enchant package contains a dynamic shared object that will add
+    support for using the enchant library to PHP.
+
+Package: ze-php74-enchant
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-enchant_7.4.33-2_amd64.deb
+Size: 7844
+MD5sum: 36b6c89b3d92deaf9da5c93baca13f3d
+SHA1: db2182b4cd92e8d1f78750883bbcd1cd1d7d45dd
+SHA256: d7fb449b51170c66f7ce4bdfb4955f6565ef60d965676c6171a183b00ab678a9
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8499,6 +8727,27 @@ Size: 28004
 MD5sum: ca8b3ede6aaab4051664d6b219530621
 SHA1: 83b87b8d979e48989034e3888d84958c8ef79c84
 SHA256: d90a1aa61390e211a731bafb11806542d1ed04e4240fb8fe5646d3042015bd96
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-exif package delivers a module which will allow PHP scripts to
+    work with image meta data. For example, you may use exif functions to
+    read meta data of pictures taken from digital cameras by working with
+    information stored in the headers of the JPEG and TIFF images.
+
+Package: ze-php74-exif
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 110
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-exif
+Filename: pool/focal/main/ze-php74-exif_7.4.33-2_amd64.deb
+Size: 27964
+MD5sum: 948666707f52d0bb6622bd8242a09403
+SHA1: e6a507b469b598c0d372f8e76a6553fee6b4ba71
+SHA256: 953ef89d4ca34a7530e2cf62a51d6db9b3656f80755007468a8a8db5a201030d
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8573,6 +8822,28 @@ Description: The php-fileinfo package delivers a module which will allow PHP
     the file. While this is not a bullet proof approach the heuristics
     used do a very good job.
 
+Package: ze-php74-fileinfo
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5630
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-fileinfo
+Filename: pool/focal/main/ze-php74-fileinfo_7.4.33-2_amd64.deb
+Size: 256808
+MD5sum: fce0c05e41e0efd638bd8718c1db448c
+SHA1: c5b77a884a336b6eb61e96275e204fd29b6aaa10
+SHA256: 3840dc2a3e3a746c6622e3a0a307976e736c713b3c52278a7f0c509acf2b3020
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-fileinfo package delivers a module which will allow PHP
+    scripts to try to guess the content type and encoding of a file by
+    looking for certain magic byte sequences at specific positions within
+    the file. While this is not a bullet proof approach the heuristics
+    used do a very good job.
+
 Package: ze-php74-fpm
 Source: ze-php74
 Version: 7.4.29-3
@@ -8623,6 +8894,25 @@ Size: 1619096
 MD5sum: 3e03477bf52c0b1f4b258d5a4e428b67
 SHA1: 828fbe0502a5a02b9cbdafc908a9eb4e6635d745
 SHA256: fd15131593b91955e9d1e9b0a5caa8699818918d45677282cbd4575252116b28
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
+    implementation with some additional features useful for sites of
+    any size, especially busier sites.
+
+Package: ze-php74-fpm
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5317
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-fpm_7.4.33-2_amd64.deb
+Size: 1617784
+MD5sum: 30403070f11240af1ad09968863e99f5
+SHA1: ca1eca8e079c94703104f12b140e4b962f1e80fb
+SHA256: 03fd8de11ac2a202fd335973b21595bd25f3ff363987f1f1bb5dbad7c807194c
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8705,6 +8995,31 @@ Description: The php-ftp package delivers a module which will allow PHP scripts
     with the ze-php74-filesystem package which provides a simpler
     and more intuitive interface.
 
+Package: ze-php74-ftp
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 86
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-ftp
+Filename: pool/focal/main/ze-php74-ftp_7.4.33-2_amd64.deb
+Size: 20052
+MD5sum: b4335789c6871c7e29c25a4fcba09806
+SHA1: 8c0c1575303173ff7e236f04b6e4d7897178cabd
+SHA256: 572d55640aa5c6aad3f37bf4ee6fd3123de5263368b8904ff5f791485c4665c7
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-ftp package delivers a module which will allow PHP scripts
+    client access to files servers speaking the File Transfer Protocol
+    (FTP) as defined in http://www.faqs.org/rfcs/rfc959. This extension is
+    meant for detailed access to an FTP server providing a wide range of
+    control to the executing script. If you only wish to read from or
+    write to a file on an FTP server, consider using the ftp:// wrapper
+    with the ze-php74-filesystem package which provides a simpler
+    and more intuitive interface.
+
 Package: ze-php74-gd
 Source: ze-php74
 Version: 7.4.29-3
@@ -8753,6 +9068,24 @@ Size: 107436
 MD5sum: b21e0ab7df19ba914535598d33dc7bef
 SHA1: 9f666fd57e5a82434e00eebc9e4be5964a6f4d4b
 SHA256: fa7dbb3f713f0cb4504015a00874a80e2309b52cd2815095430ffe551193d02d
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-gd package contains a dynamic shared object that will add
+    support for using the gd graphics library to PHP.
+
+Package: ze-php74-gd
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 406
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-gd_7.4.33-2_amd64.deb
+Size: 107436
+MD5sum: df4d9fd20dd1fd127b40886c4a879f38
+SHA1: cf19f44e6d0ae9f47e80743f7c83e9c260445652
+SHA256: 287248d09af7b78f0951cca96e15781fea3f79eb83ec8ea41a9f95be6ae6ca9a
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8828,6 +9161,29 @@ Description: The php-gettext package delivers a module which will allow PHP scri
     functions or view the docs at
     http://www.gnu.org/software/gettext/manual/gettext.html.
 
+Package: ze-php74-gettext
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 38
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-gettext
+Filename: pool/focal/main/ze-php74-gettext_7.4.33-2_amd64.deb
+Size: 5824
+MD5sum: 78e78422137ff365c8d35026caae2ed5
+SHA1: dd41f0c8b0ca3261e8975d6bbc046da4957fe252
+SHA256: ad7ad4c4a0aa373728da25f4f8a90a5f9967f77a27580e77814b027ea260ab1a
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-gettext package delivers a module which will allow PHP scripts
+    to access an NLS (Native Language Support) API which can be used to
+    internationalize your PHP applications. Please see the gettext
+    documentation for your system for a thorough explanation of these
+    functions or view the docs at
+    http://www.gnu.org/software/gettext/manual/gettext.html.
+
 Package: ze-php74-gmp
 Source: ze-php74
 Version: 7.4.29-3
@@ -8876,6 +9232,24 @@ Size: 19944
 MD5sum: 7b97f47f4e095f24ea2f9534ce7a09be
 SHA1: 4ea2ae495f224a98f8c6462f01f773a2b63272aa
 SHA256: 37ad0593f28d3c311b467f966f72a2248863361806d39c3dfa7105bbdb7fb163
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: These functions allow you to work with arbitrary-length integers
+    using the GNU MP library.
+
+Package: ze-php74-gmp
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 98
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-gmp_7.4.33-2_amd64.deb
+Size: 19956
+MD5sum: a59e4027109c701726c9ace483c10b1a
+SHA1: 1acdf57cc63cc99bce377196f4204c73c55d3d9c
+SHA256: 93dac9a0317f7148825d32854bc533d981e34ab8a026411c8faa679101d76759
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -8947,6 +9321,32 @@ Size: 17644
 MD5sum: 539e1252879dbca259db2f4294d3fef5
 SHA1: e0312474090217f1e466986535b45764052beeb5
 SHA256: 84987942272220ccd41db18010d87a0aca3ad3ce5ad6e93238e83f7266544d01
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-iconv package delivers a module which will allow PHP scripts
+    to access the iconv character set conversion facility. With this
+    module, you can turn a string represented by a local character set
+    into the one represented by another character set, which may be the
+    Unicode character set. Supported character sets depend on the iconv
+    implementation of your system. Note that the iconv function on some
+    systems may not work as you expect. In such case, it would be a good
+    idea to install the GNU libiconv library. It will most likely end up
+    with more consistent results.
+
+Package: ze-php74-iconv
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 70
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-iconv
+Filename: pool/focal/main/ze-php74-iconv_7.4.33-2_amd64.deb
+Size: 17656
+MD5sum: 44fb916251179c6d1a69f18adce16f76
+SHA1: 7fb0ab7aec33161ecba27b09b339f8beeab8c782
+SHA256: b446539766e17ec319387296221beca616b3c0c2b0c4ae831278c4f9da1e63d4
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9038,6 +9438,26 @@ Description: The ze-php74-imap module will add IMAP (Internet Message Access Pro
     support to PHP. IMAP is a protocol for retrieving and uploading e-mail
     messages on mail servers. PHP is an HTML-embedded scripting language.
 
+Package: ze-php74-imap
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 118
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-imap
+Filename: pool/focal/main/ze-php74-imap_7.4.33-2_amd64.deb
+Size: 30024
+MD5sum: 43954bddbf1d235ca3b3f3eb77f3a975
+SHA1: 90511c2a1f21777ccd33561590dcb34ed31db9b3
+SHA256: a8dc2dda49d23281e5d7b89606863ac8712d6b061b1837c03406ebe0eba6c1f5
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-imap module will add IMAP (Internet Message Access Protocol)
+    support to PHP. IMAP is a protocol for retrieving and uploading e-mail
+    messages on mail servers. PHP is an HTML-embedded scripting language.
+
 Package: ze-php74-intl
 Source: ze-php74
 Version: 7.4.29-3
@@ -9086,6 +9506,24 @@ Size: 124972
 MD5sum: 93a053f53f05eec97fc411d2a5f5af56
 SHA1: 8fbdde9d825a5f9c32bea1e715e2a8391ecc7b49
 SHA256: 5485ba56d905360d8afea4055326eea562f21f1d692a771e876f0fb9d6303539
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-intl package contains a dynamic shared object that will add
+    support for using the ICU library to PHP.
+
+Package: ze-php74-intl
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 506
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-intl_7.4.33-2_amd64.deb
+Size: 125556
+MD5sum: 6cc416b9dc46bb3d64a44143db7b84ec
+SHA1: dcd6a61a353b0b68fc033ea512dbb8577875708b
+SHA256: 8f12e0fe0c91284bbbc40fb3c6dde2d153d1bc01deaf919708c59e9e25802590
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9170,6 +9608,26 @@ Description: The ze-php74-ldap package adds Lightweight Directory Access Protoco
     services over the Internet. PHP is an HTML-embedded scripting
     language.
 
+Package: ze-php74-ldap
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-ldap_7.4.33-2_amd64.deb
+Size: 28700
+MD5sum: 78529dba9e53729a5762922ff08c97a5
+SHA1: 300e5d02b3297065d25b1ab17dae30bab49001ec
+SHA256: 7b10f2880d231ef83a9332dca90d673226e26781906290743aa3f7b31b4d02ba
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-ldap package adds Lightweight Directory Access Protocol (LDAP)
+    support to PHP. LDAP is a set of protocols for accessing directory
+    services over the Internet. PHP is an HTML-embedded scripting
+    language.
+
 Package: ze-php74-litespeed
 Source: ze-php74
 Version: 7.4.29-3
@@ -9224,6 +9682,24 @@ Homepage: http://www.php.net/
 Description: The ze-php74-litespeed package provides the /lsphp command
     used by the LiteSpeed Web Server (LSAPI enabled PHP).
 
+Package: ze-php74-litespeed
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5077
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-litespeed_7.4.33-2_amd64.deb
+Size: 1562596
+MD5sum: 597107b77aa73fc2cbaac18e790c173b
+SHA1: 6eea270d07a62f4ce9673b3cc7799afc07e01d3f
+SHA256: 42a7297337796e68b967e9e5e47c49230a441112731bca5f460d8cee329d24c4
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-litespeed package provides the /lsphp command
+    used by the LiteSpeed Web Server (LSAPI enabled PHP).
+
 Package: ze-php74-mbstring
 Source: ze-php74
 Version: 7.4.29-3
@@ -9272,6 +9748,24 @@ Size: 395120
 MD5sum: 1e709f06b642d0ba7f294f3cd83f0cb7
 SHA1: 867b3850a75dccdeb9ee5d1af06e9eae87de9a64
 SHA256: 14439321f815ed521d94054b59f8cd4952eaf2afe56b1844761e5fad08176826
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-mbstring package contains a dynamic shared object that will add
+    support for multi-byte string handling to PHP.
+
+Package: ze-php74-mbstring
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1048
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-mbstring_7.4.33-2_amd64.deb
+Size: 394044
+MD5sum: 6b053b0c312a6f85f41762a467f85b54
+SHA1: dc792c66f25eda17a2d7b201af2cbfbfa79b611e
+SHA256: 413109075e24bc30160aa1f29a172a1ead7b66c5c25b4a34240f0ce7ca09a232
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9365,6 +9859,28 @@ Description: The ze-php74-mysqlnd package contains a dynamic shared object that 
     you need MySQL support for PHP applications, you will need to install
     this package and the php package. This package use the MySQL Native Driver
 
+Package: ze-php74-mysqlnd
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 453
+Depends: ze-php74-pdo
+Provides: ze-php74-mysql, ze-php74-mysqli
+Filename: pool/focal/main/ze-php74-mysqlnd_7.4.33-2_amd64.deb
+Size: 120536
+MD5sum: dc7e6df27cfeba198a0e7e79b2b4ea12
+SHA1: 48b2312187036a0597ddeecd10029835b62bea75
+SHA256: ca098d99ce1ea44357a30ee3000ccefe04eb5f05d400151489a210433336f52d
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-mysqlnd package contains a dynamic shared object that will add
+    MySQL database support to PHP. MySQL is an object-relational database
+    management system. PHP is an HTML-embeddable scripting language. If
+    you need MySQL support for PHP applications, you will need to install
+    this package and the php package. This package use the MySQL Native Driver
+
 Package: ze-php74-odbc
 Source: ze-php74
 Version: 7.4.29-3
@@ -9423,6 +9939,29 @@ Size: 30368
 MD5sum: c6456163fb29c011a0d58eae0c2aa4d9
 SHA1: 871c528704477ce6d8f8806a6dcf591550b23cc9
 SHA256: fa062811277c0b08a792341cdd58e71d77549e5796485380ab1ec5a6cda4eb6d
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-odbc package contains a dynamic shared object that will add
+    database support through ODBC to PHP. ODBC is an open specification
+    which provides a consistent API for developers to use for accessing
+    data sources (which are often, but not always, databases). PHP is an
+    HTML-embeddable scripting language. If you need ODBC support for PHP
+    applications, you will need to install this package and the php
+    package.
+
+Package: ze-php74-odbc
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php74-pdo
+Filename: pool/focal/main/ze-php74-odbc_7.4.33-2_amd64.deb
+Size: 30260
+MD5sum: 6216fa7e5b9c252d7078daa6c01e8f04
+SHA1: 74c24b8cfc4e33e0d33080b2e1dcbaa4166305f7
+SHA256: 50fd55c2e36ae15ead6d6e7ddee34c94a80705faa6448980f9267c41d381877b
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9497,6 +10036,27 @@ Description: The Zend OPcache provides faster PHP execution through opcode cachi
     the disk and compiling it on future access. In addition, it applies a few
     bytecode optimization patterns that make code execution faster.
 
+Package: ze-php74-opcache
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 570
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-opcache_7.4.33-2_amd64.deb
+Size: 198484
+MD5sum: 2baef2dae646dee5d3b2592dfd053baf
+SHA1: f4dbc21b0113be583086f0099e01b156d9ced81e
+SHA256: 88abe053bad28e1eb674127f57d0beae80eda30b4685789a4a367cb223bc0939
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The Zend OPcache provides faster PHP execution through opcode caching and
+    optimization. It improves PHP performance by storing precompiled script
+    bytecode in the shared memory. This eliminates the stages of reading code from
+    the disk and compiling it on future access. In addition, it applies a few
+    bytecode optimization patterns that make code execution faster.
+
 Package: ze-php74-pdo
 Source: ze-php74
 Version: 7.4.29-3
@@ -9552,6 +10112,27 @@ Size: 60000
 MD5sum: c7189069f640185979bac9e675612e2e
 SHA1: 82e85409aeef24168cba7b19741cea1f0aa4ed97
 SHA256: 62c5c9bb0c506f5fdede8f04e67d78d5d8b3faade5bd8657bca1882c60b110b7
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-pdo package contains a dynamic shared object that will add
+    a database access abstraction layer to PHP.  This module provides
+    a common interface for accessing MySQL, PostgreSQL or other
+    databases.
+
+Package: ze-php74-pdo
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 234
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-sqlite3
+Filename: pool/focal/main/ze-php74-pdo_7.4.33-2_amd64.deb
+Size: 60136
+MD5sum: 5f19448ec451602636dca738437f00d4
+SHA1: 38d3faba5f0bd65bcf5660db1211e85e20afae78
+SHA256: 5fb403c5dd14cf94638b2be951a8654cd2f34a5abd39b6206c5e5f4e4d45b1a1
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9626,6 +10207,28 @@ Description: The ze-php74-pgsql package add PostgreSQL database support to PHP.
     PostgreSQL, you should install this package in addition to the main
     php package.
 
+Package: ze-php74-pgsql
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 218
+Depends: ze-php74-pdo
+Filename: pool/focal/main/ze-php74-pgsql_7.4.33-2_amd64.deb
+Size: 55940
+MD5sum: 31db369df62aee8e37488ecb54727888
+SHA1: a4813580c2b692cde76694fbc8b38fe31662d1ff
+SHA256: 3f1a963cec76a2ddb7ff2b666fca471078a7f7ffbcef72d29d7051c261a81b74
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-pgsql package add PostgreSQL database support to PHP.
+    PostgreSQL is an object-relational database management
+    system that supports almost all SQL constructs. PHP is an
+    HTML-embedded scripting language. If you need back-end support for
+    PostgreSQL, you should install this package in addition to the main
+    php package.
+
 Package: ze-php74-posix
 Source: ze-php74
 Version: 7.4.29-3
@@ -9679,6 +10282,26 @@ Size: 10968
 MD5sum: 7398fcc3afc5047099c2c0a145acdf72
 SHA1: 2600c2e7632d0d317062df3259ecf8fb4039d1c1
 SHA256: fe189a3799693805d104aef49ebb678fd03cb1fe99c3705f4cd8015e058a3ac4
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-posix package adds a PHP interface to those functions defined
+    in the IEEE 1003.1 (POSIX.1) standards document which are not
+    accessible through other means.
+
+Package: ze-php74-posix
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 62
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-posix
+Filename: pool/focal/main/ze-php74-posix_7.4.33-2_amd64.deb
+Size: 10968
+MD5sum: acf37cc8f57dbd018aff9f46f911c390
+SHA1: 94cfa4643e7bb7a5f68a7caff6e09b97e8ed084f
+SHA256: 2cce43c2847c9c8256e12c1bdd6690f7f80da85d1b960fcf0cf472d3e6cfc420
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9746,6 +10369,26 @@ Description: The ze-php74-process package contains dynamic shared objects which 
     support to PHP using system interfaces for inter-process
     communication.
 
+Package: ze-php74-process
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 94
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-shmop, ze-php74-sysvmsg, ze-php74-sysvsem, ze-php74-sysvshm
+Filename: pool/focal/main/ze-php74-process_7.4.33-2_amd64.deb
+Size: 13596
+MD5sum: d454675b7a0860ee61c505f093f1a6ce
+SHA1: 1c57d611d4487836323a5e72875cc34c86b8e9f9
+SHA256: 659002d156dc0259ba38cdfbc2185f59dbc8f2945504a991001e34a982bd8fc5
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-process package contains dynamic shared objects which add
+    support to PHP using system interfaces for inter-process
+    communication.
+
 Package: ze-php74-pspell
 Source: ze-php74
 Version: 7.4.29-3
@@ -9794,6 +10437,24 @@ Size: 7444
 MD5sum: 198e5fd066f3c7ca5c9de96d86f90288
 SHA1: d8d0533351c821bcf5523a0d191cb5426469cae3
 SHA256: 002623f98f6cb424d938492ae7a76cae5ccf79c12cb054c7391106872f088451
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-pspell package contains a dynamic shared object that will add
+    support for using the pspell library to PHP.
+
+Package: ze-php74-pspell
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-pspell_7.4.33-2_amd64.deb
+Size: 7440
+MD5sum: 682b64d80e78b3528f5132c80fb6356f
+SHA1: 6f799ea034fccd0547921776496afe9baa7af497
+SHA256: de74f71f6f09720983473d97a44d78bd76406bce8feef5e182680722185d3a76
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9860,6 +10521,26 @@ Description: The ze-php74-snmp package contains a dynamic shared object that wil
     scripting language. If you need SNMP support for PHP applications, you
     will need to install this package and the php package.
 
+Package: ze-php74-snmp
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 78
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-snmp_7.4.33-2_amd64.deb
+Size: 17744
+MD5sum: 63934b942194f9401e279be4caa79ac2
+SHA1: 6ba95512f0f7eab5d3f42491e15a66e034144539
+SHA256: 47e2546b1e17b7be7eb2e804ca20bd4fb33a7147c7eaebbec7d97d05ada5059f
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-snmp package contains a dynamic shared object that will add
+    support for querying SNMP devices to PHP.  PHP is an HTML-embeddable
+    scripting language. If you need SNMP support for PHP applications, you
+    will need to install this package and the php package.
+
 Package: ze-php74-soap
 Source: ze-php74
 Version: 7.4.29-3
@@ -9908,6 +10589,24 @@ Size: 113604
 MD5sum: ab034823f4a1ea153dab94fbcac8723c
 SHA1: e7ee5d808424f8fba7f642f57cc51e9ca8a5bd99
 SHA256: 860a2bfdca693e9c2f7e6caedc8955d5ad5188baac7a984a86866c31a3241567
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-soap package contains a dynamic shared object that will add
+    support to PHP for using the SOAP web services protocol.
+
+Package: ze-php74-soap
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 334
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-soap_7.4.33-2_amd64.deb
+Size: 113836
+MD5sum: 5d2d5e00cd8bffa3165de18b13bf37fb
+SHA1: 239daa3a66f73128856c8c7f89b9d0c476821583
+SHA256: 19ee03fdfc423ac1d6a5b5a3d2d80023b80942b6e602f1684f6f577856746728
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -9977,6 +10676,27 @@ Description: The php-sockets package delivers a module which will allow PHP scri
     based on the popular BSD sockets, providing the possibility to act as
     a socket server as well as a client.
 
+Package: ze-php74-sockets
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 118
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-sockets
+Filename: pool/focal/main/ze-php74-sockets_7.4.33-2_amd64.deb
+Size: 31232
+MD5sum: 2e123399565ce252459e4fae10c172e2
+SHA1: 0e641c3ca2933675f8e1a47558be2c8d0e2ef664
+SHA256: 68b5aca3a5c76374d485fc018b6781b12d8f25c4f741953f5b7f65615deea971
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-sockets package delivers a module which will allow PHP scripts
+    access to a low-level interface to the socket communication functions
+    based on the popular BSD sockets, providing the possibility to act as
+    a socket server as well as a client.
+
 Package: ze-php74-sodium
 Source: ze-php74
 Version: 7.4.29-3
@@ -10031,6 +10751,24 @@ Homepage: http://www.php.net/
 Description: PHP binding to libsodium software library for encryption, decryption,
              signatures, password hashing and more.
 
+Package: ze-php74-sodium
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 106
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-sodium_7.4.33-2_amd64.deb
+Size: 21508
+MD5sum: 1091844597f39f1e0d1e7f3b9d40756e
+SHA1: 39e7416ae6816761f805cec2a1d37260b02fac1b
+SHA256: 7395c1ddb4b82832b61e09a95397a79990b5612e5816d8eb73ef44c1c3206596
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP binding to libsodium software library for encryption, decryption,
+             signatures, password hashing and more.
+
 Package: ze-php74-tidy
 Source: ze-php74
 Version: 7.4.29-3
@@ -10079,6 +10817,24 @@ Size: 16804
 MD5sum: 8fef76dca2282626d6f7b6dde14f8e26
 SHA1: d658a74a66c178b3195c1d942f789c0f6a741f20
 SHA256: 75e70e1b2ec87d43c489ae42de9d5dbe77c6aa42be646f00523bd17bffcbdd1d
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-tidy package contains a dynamic shared object that will add
+    support for using the tidy library to PHP.
+
+Package: ze-php74-tidy
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 82
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-tidy_7.4.33-2_amd64.deb
+Size: 16776
+MD5sum: 0da722d668069d8ddc37e48226933a58
+SHA1: 5fd3ad008d6e46b3f26e1ed5c46b9c76268eb0b0
+SHA256: e5ce0993d927f6bfd63e8d07c9ed7e4cf0f6df821ba7bc16bb5d647110c47abd
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10145,6 +10901,26 @@ Description: The ze-php74-xml package contains dynamic shared objects which add 
     to PHP for manipulating XML documents using the DOM tree,
     and performing XSL transformations on XML documents.
 
+Package: ze-php74-xml
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 426
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-dom, ze-php74-domxml, ze-php74-simplexml, ze-php74-xmlreader, ze-php74-xmlwriter, ze-php74-xsl
+Filename: pool/focal/main/ze-php74-xml_7.4.33-2_amd64.deb
+Size: 96172
+MD5sum: d14e7389dba683596b1718f4a0c0b155
+SHA1: 056ec1df4da91e7dd0545a1d60e4b16f9fae2469
+SHA256: df9b1d61e2e1fed15d77bb841a53ada24158a12418ffcd8a22f8737e96bd7538
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-xml package contains dynamic shared objects which add support
+    to PHP for manipulating XML documents using the DOM tree,
+    and performing XSL transformations on XML documents.
+
 Package: ze-php74-xmlrpc
 Source: ze-php74
 Version: 7.4.29-3
@@ -10193,6 +10969,24 @@ Size: 31032
 MD5sum: 77099f38eed3b919980a2749ad0db886
 SHA1: 3692e01fb99d04c1115647dedbbdf1247e9e87b7
 SHA256: 31fe59ca837406680b4a1dffc71a5bcc5ecf0da709d664236129e75ac971858f
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-xmlrpc package contains a dynamic shared object that will add
+    support for the XML-RPC protocol to PHP.
+
+Package: ze-php74-xmlrpc
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 110
+Depends: ze-php74-common, ze-php74-cli
+Filename: pool/focal/main/ze-php74-xmlrpc_7.4.33-2_amd64.deb
+Size: 31028
+MD5sum: 246e910fe5f3fbccb9eb768cbe538608
+SHA1: e39545ac5e9231184ec34b8cf24e901e4e508ba2
+SHA256: 8df18a48543b3372fb17b93c73292784c5497375928582a78a75ed56a0699b41
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
@@ -10252,6 +11046,26 @@ Size: 20556
 MD5sum: e02a7bacff4f8d8faacdc9c570ccafa5
 SHA1: f945c3d5e937885b86ab6da0290cbe7c87febb42
 SHA256: 4c144efc796072928279877770b2ea1e8face329899de5ede2308136fe3a825d
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php74-zip package delivers a module which will allow PHP scripts
+    to transparently read or write ZIP compressed archives and the files
+    inside them.
+
+Package: ze-php74-zip
+Source: ze-php74
+Version: 7.4.33-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 90
+Depends: ze-php74-common, ze-php74-cli
+Provides: ze-php74-zip
+Filename: pool/focal/main/ze-php74-zip_7.4.33-2_amd64.deb
+Size: 20556
+MD5sum: 4d76f57467e9ad115101d0c5240c080e
+SHA1: e006600d4bfc55560025b37d8b45e837a33ac854
+SHA256: 78f4ace0ec7b39df80301486b5b61a9f476d1094a6d943481beda950388b2843
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
