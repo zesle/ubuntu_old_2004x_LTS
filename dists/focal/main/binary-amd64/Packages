@@ -11906,6 +11906,28 @@ Description: The ze-php80-zip package delivers a module which will allow PHP scr
     inside them.
 
 Package: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 78
+Depends: ze-php81-fpm | ze-php81-cgi, ze-php81-common
+Provides: php
+Filename: pool/focal/main/ze-php81_8.1.12-2_amd64.deb
+Size: 19884
+MD5sum: 6044578adc953d7f6ec8ce4fffe61eea
+SHA1: db098058810d7ba0d5a7f7e2ce70f7b3e5407a50
+SHA256: fb640403e5176815a86b13951e0e42e5db3fcaefb448a5556aa3f6f9569d4d07
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
+ easy for developers to write dynamically generated web pages. PHP also
+ offers built-in database integration for several commercial and
+ non-commercial database management systems, so writing a
+ database-enabled webpage with PHP is fairly simple. The most common
+ use of PHP coding is probably as a replacement for CGI scripts.
+
+Package: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -11951,6 +11973,24 @@ Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
 
 Package: ze-php81-bcmath
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 58
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-bcmath_8.1.12-2_amd64.deb
+Size: 14392
+MD5sum: 241dcfcfc6382f1b0098cd5c2e17958b
+SHA1: 5fb0b910af896bd86a360b162343315d2faffa53
+SHA256: 7e55e9aa5dc957104552bf90ef7eed8aa705b9914e289a190db4b02eba78c28b
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-bcmath package contains a dynamic shared object that will add
+    support for using the bcmath library to PHP.
+
+Package: ze-php81-bcmath
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -11984,6 +12024,25 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-bcmath package contains a dynamic shared object that will add
     support for using the bcmath library to PHP.
+
+Package: ze-php81-bz2
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 50
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-bz2
+Filename: pool/focal/main/ze-php81-bz2_8.1.12-2_amd64.deb
+Size: 9588
+MD5sum: fd9dd05f02fccddd178ff5d6903eb187
+SHA1: 3fe34ba14f81eca68e8524d707c7480b832965c3
+SHA256: f5761f917ef140d2ed8a3cf6746fce143c89b615dfccc3ccf3311918979aa587
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-bz2 package delivers a module which will allow PHP scripts to
+    interface with .bz2 files.
 
 Package: ze-php81-bz2
 Source: ze-php81
@@ -12025,6 +12084,25 @@ Description: The php-bz2 package delivers a module which will allow PHP scripts 
 
 Package: ze-php81-calendar
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 54
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-calendar
+Filename: pool/focal/main/ze-php81-calendar_8.1.12-2_amd64.deb
+Size: 11740
+MD5sum: b87f83872047e88d92f4fe0e61e1df69
+SHA1: adcc41df11fd72fb305b87ba6ed1d62bd8fc06de
+SHA256: f701ee9ba8e133495dd989d2eb60f970b46f60a324faa6574398ea1f62d92446
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-calendar package delivers a module which will allow PHP scripts to
+    do date and time conversions and calculations.
+
+Package: ze-php81-calendar
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12060,6 +12138,25 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The php-calendar package delivers a module which will allow PHP scripts to
     do date and time conversions and calculations.
+
+Package: ze-php81-cli
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 11697
+Depends: ze-php81-common
+Provides: ze-php81-cgi, ze-php81-pcntl, ze-php81-readline
+Filename: pool/focal/main/ze-php81-cli_8.1.12-2_amd64.deb
+Size: 2151440
+MD5sum: f2246eab86d7551666c18c45a589cac3
+SHA1: c979ffc038476a99b3ad434aa224c587c001b3cb
+SHA256: c68974cc4502b0722e97b88a9d06e97c5acfa0ff12a02ca35f0b3ffe507e6137
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-cli package contains the command-line interface
+    executing PHP scripts, /usr/bin/php, and the CGI interface.
 
 Package: ze-php81-cli
 Source: ze-php81
@@ -12101,6 +12198,24 @@ Description: The php-cli package contains the command-line interface
 
 Package: ze-php81-common
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 354
+Provides: ze-php81-core, ze-php81-ctype, ze-php81-date, ze-php81-filter, ze-php81-gmp, ze-php81-hash, ze-php81-json, ze-php81-libxml, ze-php81-mhash, ze-php81-openssl, ze-php81-pcre, ze-php81-phar, ze-php81-reflection, ze-php81-session, ze-php81-spl, ze-php81-standard, ze-php81-tokenizer, ze-php81-zlib
+Filename: pool/focal/main/ze-php81-common_8.1.12-2_amd64.deb
+Size: 106708
+MD5sum: 13ea9781349d2761461c15e326d25cd8
+SHA1: e96aac1d9e354d5f5500e939834aa60a36c28db3
+SHA256: 740398dcd345362e406dd73c04e643dfec1bd4305892df6bcb0c243a7c6fc6b0
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-common package contains files used by both
+    the ze-php81 package and the php-cli package.
+
+Package: ze-php81-common
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12134,6 +12249,29 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-common package contains files used by both
     the ze-php81 package and the php-cli package.
+
+Package: ze-php81-curl
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 138
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-curl_8.1.12-2_amd64.deb
+Size: 32692
+MD5sum: 4446f537221ee4483373e8825535e04f
+SHA1: bc001b84bb7f8be000d11d6d6a83925722a3e67c
+SHA256: 077148edee8a947509d9a0e4850fbec2185c724d9a3a9e4d8a370de503d408a8
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-curl package delivers a module which will allow PHP
+    scripts to connect and communicate to many different types of servers
+    with many different types of protocols. libcurl currently supports the
+    http, https, ftp, gopher, telnet, dict, file, and ldap
+    protocols. libcurl also supports HTTPS certificates, HTTP POST, HTTP
+    PUT, FTP uploading, HTTP form based upload, proxies, cookies, and
+    user+password authentication.
 
 Package: ze-php81-curl
 Source: ze-php81
@@ -12183,6 +12321,24 @@ Description: The php-curl package delivers a module which will allow PHP
 
 Package: ze-php81-dba
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 74
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-dba_8.1.12-2_amd64.deb
+Size: 20032
+MD5sum: bdbc65e7c5a11876c4f835536cdf3f17
+SHA1: 0ed365ca93a8355ac75dd2e4dc591c246d7e64e0
+SHA256: 43e2aa7128e76ac02be92f9c2e8fac75b32be904c68f9bab841e47aec06195ce
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-dba package contains a dynamic shared object that will add
+    support for using the DBA database abstraction layer to PHP.
+
+Package: ze-php81-dba
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12219,6 +12375,23 @@ Description: The ze-php81-dba package contains a dynamic shared object that will
 
 Package: ze-php81-dbg
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5954
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-dbg_8.1.12-2_amd64.deb
+Size: 1844956
+MD5sum: df54eb1b6a24ffcae046e5e1922243de
+SHA1: 6bcc4ee330968bb3f4dc0862e1b8696db671b344
+SHA256: 8a61263c58a46099d7ec94c07993518ccebc4d97848ba627009019bb2d20e2d2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-dbg package contains the interactive PHP debugger.
+
+Package: ze-php81-dbg
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12250,6 +12423,25 @@ Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-dbg package contains the interactive PHP debugger.
+
+Package: ze-php81-dev
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 6171
+Depends: ze-php81-cli
+Filename: pool/focal/main/ze-php81-dev_8.1.12-2_amd64.deb
+Size: 661796
+MD5sum: 9b8914cf4983faa6f65da5d907d10f02
+SHA1: 20c77c827ad57c96a12731c713a9a2d0a2a4a390
+SHA256: 8a63d1cdfe4fab7f15ba623102fbb9d5bc8c43eeaec0ef01917c9ab843e71efb
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-devel package contains the files needed for building PHP
+    extensions. If you need to compile your own PHP extensions, you will
+    need to install this package.
 
 Package: ze-php81-dev
 Source: ze-php81
@@ -12291,6 +12483,24 @@ Description: The ze-php81-devel package contains the files needed for building P
 
 Package: ze-php81-embedded
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 11459
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-embedded_8.1.12-2_amd64.deb
+Size: 1765188
+MD5sum: 3e17aa92e9a8363e8ecca3b882acea86
+SHA1: c17c0602802a22a912897400b29de62785f34d18
+SHA256: c1d3dca4ff61f0121d68dd395129f5da68210d2503020d54eadfc86fe6027b16
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-embedded package contains a library which can be embedded
+    into applications to provide PHP scripting language support.
+
+Package: ze-php81-embedded
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12327,6 +12537,24 @@ Description: The ze-php81-embedded package contains a library which can be embed
 
 Package: ze-php81-enchant
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-enchant_8.1.12-2_amd64.deb
+Size: 8376
+MD5sum: 052dc49632b73920f4477a536d0750d3
+SHA1: bf0a7b8ace99e088b18b41cf6b79c96b3176611d
+SHA256: 7069b15c55a82bac93b8b467825f53d4635a1a985d492edc1c6035a6cb7d0a8f
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-enchant package contains a dynamic shared object that will add
+    support for using the enchant library to PHP.
+
+Package: ze-php81-enchant
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12360,6 +12588,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-enchant package contains a dynamic shared object that will add
     support for using the enchant library to PHP.
+
+Package: ze-php81-exif
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 110
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-exif
+Filename: pool/focal/main/ze-php81-exif_8.1.12-2_amd64.deb
+Size: 28000
+MD5sum: fbf754dbe40f703c8b476d7ee3d907d9
+SHA1: 56550524ab76c9d4b0c20d98cd1818125eaec120
+SHA256: 820253e379ce1a6b012dafa4d3ded7b117224016e570c9b128fad02e59853779
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-exif package delivers a module which will allow PHP scripts to
+    work with image meta data. For example, you may use exif functions to
+    read meta data of pictures taken from digital cameras by working with
+    information stored in the headers of the JPEG and TIFF images.
 
 Package: ze-php81-exif
 Source: ze-php81
@@ -12402,6 +12651,28 @@ Description: The php-exif package delivers a module which will allow PHP scripts
     work with image meta data. For example, you may use exif functions to
     read meta data of pictures taken from digital cameras by working with
     information stored in the headers of the JPEG and TIFF images.
+
+Package: ze-php81-fileinfo
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 7002
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-fileinfo
+Filename: pool/focal/main/ze-php81-fileinfo_8.1.12-2_amd64.deb
+Size: 291240
+MD5sum: ea8118cdf8d9f945941d6ef3b2f46a6f
+SHA1: ab7d7d19ff1cfb79c03dd908508700e2d2f9f733
+SHA256: 6eb042739020673caf94df5179b17cba3c974f644d0670ec15505e3684c62f84
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-fileinfo package delivers a module which will allow PHP
+    scripts to try to guess the content type and encoding of a file by
+    looking for certain magic byte sequences at specific positions within
+    the file. While this is not a bullet proof approach the heuristics
+    used do a very good job.
 
 Package: ze-php81-fileinfo
 Source: ze-php81
@@ -12449,6 +12720,25 @@ Description: The php-fileinfo package delivers a module which will allow PHP
 
 Package: ze-php81-fpm
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 6039
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-fpm_8.1.12-2_amd64.deb
+Size: 1846920
+MD5sum: 285fc38b3f1b1e9c014c2f9d2be237e4
+SHA1: 84a2b84ef4281f2013d07c114b01f7022697de87
+SHA256: 359d7129d106bd9f5f30d27e7aed8a2aee26c3df64b70c110b8d3e61024eef63
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
+    implementation with some additional features useful for sites of
+    any size, especially busier sites.
+
+Package: ze-php81-fpm
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12484,6 +12774,31 @@ Homepage: http://www.php.net/
 Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
     implementation with some additional features useful for sites of
     any size, especially busier sites.
+
+Package: ze-php81-ftp
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 90
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-ftp
+Filename: pool/focal/main/ze-php81-ftp_8.1.12-2_amd64.deb
+Size: 21076
+MD5sum: 07a3dcd044d1a8df024ccbd13800773d
+SHA1: ef6c6a8b4c57ee2179e50fe90e6463f35efd30d3
+SHA256: 55ab7c5f1e73d0616734a76655f196124290d4b98b3b68be037aa373f6d94b64
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-ftp package delivers a module which will allow PHP scripts
+    client access to files servers speaking the File Transfer Protocol
+    (FTP) as defined in http://www.faqs.org/rfcs/rfc959. This extension is
+    meant for detailed access to an FTP server providing a wide range of
+    control to the executing script. If you only wish to read from or
+    write to a file on an FTP server, consider using the ftp:// wrapper
+    with the ze-php81-filesystem package which provides a simpler
+    and more intuitive interface.
 
 Package: ze-php81-ftp
 Source: ze-php81
@@ -12537,6 +12852,24 @@ Description: The php-ftp package delivers a module which will allow PHP scripts
 
 Package: ze-php81-gd
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 406
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-gd_8.1.12-2_amd64.deb
+Size: 108040
+MD5sum: a2d80b89dece3e7d66cf229b2f95a691
+SHA1: 4313c29092ff502213b8d9d965f455a5b6109564
+SHA256: b457aec22fd4fa9980484876f26fce41dc0bc2df6e0766b4c22e687ed6eb0e78
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-gd package contains a dynamic shared object that will add
+    support for using the gd graphics library to PHP.
+
+Package: ze-php81-gd
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12570,6 +12903,29 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-gd package contains a dynamic shared object that will add
     support for using the gd graphics library to PHP.
+
+Package: ze-php81-gettext
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 38
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-gettext
+Filename: pool/focal/main/ze-php81-gettext_8.1.12-2_amd64.deb
+Size: 5768
+MD5sum: 7035d875862dc0f65c8ada69e67fafeb
+SHA1: 549ab59bd73e84d42963329f305468cabd138b5c
+SHA256: 1b44e7eee52d949cd38f07c49aedde038419a78b7fd14a6fd8bec09b5292637e
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-gettext package delivers a module which will allow PHP scripts
+    to access an NLS (Native Language Support) API which can be used to
+    internationalize your PHP applications. Please see the gettext
+    documentation for your system for a thorough explanation of these
+    functions or view the docs at
+    http://www.gnu.org/software/gettext/manual/gettext.html.
 
 Package: ze-php81-gettext
 Source: ze-php81
@@ -12619,6 +12975,24 @@ Description: The php-gettext package delivers a module which will allow PHP scri
 
 Package: ze-php81-gmp
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 102
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-gmp_8.1.12-2_amd64.deb
+Size: 21628
+MD5sum: 0dc5de5dad9041ca688af2a5407715ea
+SHA1: 89e3621a3a8a348737bffc2e872d2c087ccbf892
+SHA256: 16b05ff25703eded87edc81fa0d110c311df3d4dd47941cb8bde99a1b82308a6
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: These functions allow you to work with arbitrary-length integers
+    using the GNU MP library.
+
+Package: ze-php81-gmp
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12652,6 +13026,32 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: These functions allow you to work with arbitrary-length integers
     using the GNU MP library.
+
+Package: ze-php81-iconv
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 70
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-iconv
+Filename: pool/focal/main/ze-php81-iconv_8.1.12-2_amd64.deb
+Size: 17808
+MD5sum: 4c81ef8061c736c36e43ed9fff16a9fc
+SHA1: aa00aa3ecda72cf01fc1b133f1e1c0926c402bd6
+SHA256: 1056d38d428f156be6d04ec9aaa41c00aea8301eaf0f293e256760d85f5e8416
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-iconv package delivers a module which will allow PHP scripts
+    to access the iconv character set conversion facility. With this
+    module, you can turn a string represented by a local character set
+    into the one represented by another character set, which may be the
+    Unicode character set. Supported character sets depend on the iconv
+    implementation of your system. Note that the iconv function on some
+    systems may not work as you expect. In such case, it would be a good
+    idea to install the GNU libiconv library. It will most likely end up
+    with more consistent results.
 
 Package: ze-php81-iconv
 Source: ze-php81
@@ -12725,6 +13125,26 @@ Description: Imagick is a native php extension to
 
 Package: ze-php81-imap
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 130
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-imap
+Filename: pool/focal/main/ze-php81-imap_8.1.12-2_amd64.deb
+Size: 31308
+MD5sum: 16b40be58f9c20bdfd86b91118427fd7
+SHA1: 46b3aaa3c45fe9c7558d29df69215b11f53bfdbb
+SHA256: 38d5aa130535f5d0aa1a4e0208be3aa6e82f645ac771f3c15613cf72233f1fc6
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-imap module will add IMAP (Internet Message Access Protocol)
+    support to PHP. IMAP is a protocol for retrieving and uploading e-mail
+    messages on mail servers. PHP is an HTML-embedded scripting language.
+
+Package: ze-php81-imap
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12765,6 +13185,24 @@ Description: The ze-php81-imap module will add IMAP (Internet Message Access Pro
 
 Package: ze-php81-intl
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 494
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-intl_8.1.12-2_amd64.deb
+Size: 124764
+MD5sum: 7e858afab3e8304765c3648b4462e91e
+SHA1: 181e67a7003229279441fb8e9f6ef74bce51c734
+SHA256: 43f14be16610a0812735a125554f92f35fd092e8552fa8bb930a5936282d08bb
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-intl package contains a dynamic shared object that will add
+    support for using the ICU library to PHP.
+
+Package: ze-php81-intl
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12798,6 +13236,26 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-intl package contains a dynamic shared object that will add
     support for using the ICU library to PHP.
+
+Package: ze-php81-ldap
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-ldap_8.1.12-2_amd64.deb
+Size: 29672
+MD5sum: c2ec9a75fd0c7e8ba8a945f18cf0cf8c
+SHA1: aef6d43c04fbc36ad08805821003a1961adbce36
+SHA256: 685af3afddb7f81994012a88139b35837e37a1c380ed04119ccdac091b72de8b
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-ldap package adds Lightweight Directory Access Protocol (LDAP)
+    support to PHP. LDAP is a set of protocols for accessing directory
+    services over the Internet. PHP is an HTML-embedded scripting
+    language.
 
 Package: ze-php81-ldap
 Source: ze-php81
@@ -12841,6 +13299,24 @@ Description: The ze-php81-ldap package adds Lightweight Directory Access Protoco
 
 Package: ze-php81-litespeed
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 5790
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-litespeed_8.1.12-2_amd64.deb
+Size: 1788852
+MD5sum: b8ae083a3f44a84998e9a10892cb025f
+SHA1: 6037b684978c0c7834af446d77eb60c947378d9d
+SHA256: b9d95c5e6979be20429e3053e9a96d3f362bf68245e17e5dff10dd332d615b3a
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-litespeed package provides the /lsphp command
+    used by the LiteSpeed Web Server (LSAPI enabled PHP).
+
+Package: ze-php81-litespeed
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12877,6 +13353,24 @@ Description: The ze-php81-litespeed package provides the /lsphp command
 
 Package: ze-php81-mbstring
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1052
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-mbstring_8.1.12-2_amd64.deb
+Size: 391092
+MD5sum: cc59d49bdbe807c82353aa84e611a39a
+SHA1: 19e38ad50b48f3e2f382ccd24e14d5204c3c69d1
+SHA256: 6c5c1cae8968707688135425adcb86e9e23a0a2b575be128957e23fcc155f05c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-mbstring package contains a dynamic shared object that will add
+    support for multi-byte string handling to PHP.
+
+Package: ze-php81-mbstring
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -12910,6 +13404,28 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php81-mysqlnd
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 441
+Depends: ze-php81-pdo
+Provides: ze-php81-mysql, ze-php81-mysqli
+Filename: pool/focal/main/ze-php81-mysqlnd_8.1.12-2_amd64.deb
+Size: 114712
+MD5sum: a78f9aed1309f9a1d1b42e87d27761c0
+SHA1: 25abe4ac0fa3d561fa1097a09cd72d43748a3478
+SHA256: 657e820b657ea54ed877647e082b4f4698146335cae8e39ca4c7b37d071581de
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-mysqlnd package contains a dynamic shared object that will add
+    MySQL database support to PHP. MySQL is an object-relational database
+    management system. PHP is an HTML-embeddable scripting language. If
+    you need MySQL support for PHP applications, you will need to install
+    this package and the php package. This package use the MySQL Native Driver
 
 Package: ze-php81-mysqlnd
 Source: ze-php81
@@ -12954,6 +13470,29 @@ Description: The ze-php81-mysqlnd package contains a dynamic shared object that 
     management system. PHP is an HTML-embeddable scripting language. If
     you need MySQL support for PHP applications, you will need to install
     this package and the php package. This package use the MySQL Native Driver
+
+Package: ze-php81-odbc
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 130
+Depends: ze-php81-pdo
+Filename: pool/focal/main/ze-php81-odbc_8.1.12-2_amd64.deb
+Size: 30816
+MD5sum: 38281d5443511d7501381326ffcf5441
+SHA1: 4c0ed7dfcaf5f84b014f1bfd7b39c6aa6450d277
+SHA256: 0760c1a2d55240eae40e8ae0e017d1edbad3e13ced79e8215c3d8a5d0c2e0a80
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-odbc package contains a dynamic shared object that will add
+    database support through ODBC to PHP. ODBC is an open specification
+    which provides a consistent API for developers to use for accessing
+    data sources (which are often, but not always, databases). PHP is an
+    HTML-embeddable scripting language. If you need ODBC support for PHP
+    applications, you will need to install this package and the php
+    package.
 
 Package: ze-php81-odbc
 Source: ze-php81
@@ -13003,6 +13542,27 @@ Description: The ze-php81-odbc package contains a dynamic shared object that wil
 
 Package: ze-php81-opcache
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1019
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-opcache_8.1.12-2_amd64.deb
+Size: 336028
+MD5sum: 27a62db18db4d540e53022f4abecdf73
+SHA1: 0dec6090486a511dc59e4f48d261c48a992c7607
+SHA256: e5cc1a511d1e2cd5ed536505a88352e36edb7bab861e6338f10def7972b40696
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The Zend OPcache provides faster PHP execution through opcode caching and
+    optimization. It improves PHP performance by storing precompiled script
+    bytecode in the shared memory. This eliminates the stages of reading code from
+    the disk and compiling it on future access. In addition, it applies a few
+    bytecode optimization patterns that make code execution faster.
+
+Package: ze-php81-opcache
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13045,6 +13605,27 @@ Description: The Zend OPcache provides faster PHP execution through opcode cachi
 
 Package: ze-php81-pdo
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 254
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-sqlite3
+Filename: pool/focal/main/ze-php81-pdo_8.1.12-2_amd64.deb
+Size: 65312
+MD5sum: 82c251b61eba59f70765b39e5b69cf39
+SHA1: b7d3a91073c1845293043fe5895136bc9b9f2cce
+SHA256: 2ec2ea1c9054c9c407cec74c885b312736f725064c92338c640b587ea6749f73
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-pdo package contains a dynamic shared object that will add
+    a database access abstraction layer to PHP.  This module provides
+    a common interface for accessing MySQL, PostgreSQL or other
+    databases.
+
+Package: ze-php81-pdo
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13084,6 +13665,28 @@ Description: The ze-php81-pdo package contains a dynamic shared object that will
     a database access abstraction layer to PHP.  This module provides
     a common interface for accessing MySQL, PostgreSQL or other
     databases.
+
+Package: ze-php81-pgsql
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 218
+Depends: ze-php81-pdo
+Filename: pool/focal/main/ze-php81-pgsql_8.1.12-2_amd64.deb
+Size: 57992
+MD5sum: cb2000a7d35c22ae44171d2d7c524036
+SHA1: 29fd2455b163336c47e800c6e09bfe547002b776
+SHA256: c96717369a125d435d62e65ff548eb9446f83c2b597d6870edbbdeb4d7a568fb
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-pgsql package add PostgreSQL database support to PHP.
+    PostgreSQL is an object-relational database management
+    system that supports almost all SQL constructs. PHP is an
+    HTML-embedded scripting language. If you need back-end support for
+    PostgreSQL, you should install this package in addition to the main
+    php package.
 
 Package: ze-php81-pgsql
 Source: ze-php81
@@ -13131,6 +13734,26 @@ Description: The ze-php81-pgsql package add PostgreSQL database support to PHP.
 
 Package: ze-php81-posix
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 62
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-posix
+Filename: pool/focal/main/ze-php81-posix_8.1.12-2_amd64.deb
+Size: 11072
+MD5sum: 5ef06f134523026f3d386fb47f0fb331
+SHA1: 19844dc81728a847e70e5a3963aa8b64359bad51
+SHA256: 06e4db4162576512b6d2467e6875356726c2470ee865a9a9d3dc7f395b73a5e2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-posix package adds a PHP interface to those functions defined
+    in the IEEE 1003.1 (POSIX.1) standards document which are not
+    accessible through other means.
+
+Package: ze-php81-posix
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13168,6 +13791,26 @@ Homepage: http://www.php.net/
 Description: The php-posix package adds a PHP interface to those functions defined
     in the IEEE 1003.1 (POSIX.1) standards document which are not
     accessible through other means.
+
+Package: ze-php81-process
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 102
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-shmop, ze-php81-sysvmsg, ze-php81-sysvsem, ze-php81-sysvshm
+Filename: pool/focal/main/ze-php81-process_8.1.12-2_amd64.deb
+Size: 14876
+MD5sum: 259f0827fcd846e537332e62c24e955a
+SHA1: 17d11fa790a1b0935262eccb1b922e7d1cb15ad3
+SHA256: 0d2ef71ad5cce95323e2a589b99bbe4f75b2836ca338170ceeac1bc37e81934f
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-process package contains dynamic shared objects which add
+    support to PHP using system interfaces for inter-process
+    communication.
 
 Package: ze-php81-process
 Source: ze-php81
@@ -13211,6 +13854,24 @@ Description: The ze-php81-process package contains dynamic shared objects which 
 
 Package: ze-php81-pspell
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 46
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-pspell_8.1.12-2_amd64.deb
+Size: 7756
+MD5sum: f91d0bde65b59b99c2eab072f279f93d
+SHA1: 006c9b51d69d335d07bf5416d10f21eee22f6d97
+SHA256: e3f149bce38c15f9f84596d86eb13f9587970baf4b19fa8729eccb505b5d02d2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-pspell package contains a dynamic shared object that will add
+    support for using the pspell library to PHP.
+
+Package: ze-php81-pspell
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13244,6 +13905,26 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-pspell package contains a dynamic shared object that will add
     support for using the pspell library to PHP.
+
+Package: ze-php81-snmp
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 86
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-snmp_8.1.12-2_amd64.deb
+Size: 20592
+MD5sum: 1ac7044dfd86012d497af08bcb6cd96a
+SHA1: e7c9fe4fc92a3abcff1ad1706455af6ca35ac883
+SHA256: 16518b571f0ac5ebbfd1137f73ea303c699ab0362ad9613144ee3af6583b9973
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-snmp package contains a dynamic shared object that will add
+    support for querying SNMP devices to PHP.  PHP is an HTML-embeddable
+    scripting language. If you need SNMP support for PHP applications, you
+    will need to install this package and the php package.
 
 Package: ze-php81-snmp
 Source: ze-php81
@@ -13287,6 +13968,24 @@ Description: The ze-php81-snmp package contains a dynamic shared object that wil
 
 Package: ze-php81-soap
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 350
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-soap_8.1.12-2_amd64.deb
+Size: 119844
+MD5sum: 3f5010ce6e93924541a075a52edf23c2
+SHA1: fef5abf3e07dd04063e70b766394d784ab1d90a4
+SHA256: 973930a7ff620e74f3bdad1e6d5613d4284b77f92c8ab945b3230636303c8e22
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-soap package contains a dynamic shared object that will add
+    support to PHP for using the SOAP web services protocol.
+
+Package: ze-php81-soap
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13320,6 +14019,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-soap package contains a dynamic shared object that will add
     support to PHP for using the SOAP web services protocol.
+
+Package: ze-php81-sockets
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 122
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-sockets
+Filename: pool/focal/main/ze-php81-sockets_8.1.12-2_amd64.deb
+Size: 32596
+MD5sum: ec9d1943007e6111127ed63001fa221e
+SHA1: a3ae597b78ea05b003ded8cc8397e7bb6bba9aef
+SHA256: 6362a89868e4f9de34fbdb4e3ad944ccea30fac8899ce32cbad047096cafeb5c
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The php-sockets package delivers a module which will allow PHP scripts
+    access to a low-level interface to the socket communication functions
+    based on the popular BSD sockets, providing the possibility to act as
+    a socket server as well as a client.
 
 Package: ze-php81-sockets
 Source: ze-php81
@@ -13365,6 +14085,24 @@ Description: The php-sockets package delivers a module which will allow PHP scri
 
 Package: ze-php81-sodium
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 126
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-sodium_8.1.12-2_amd64.deb
+Size: 24284
+MD5sum: 0b9a0aafa17f755ffb29f2635677c6cb
+SHA1: a21fe375c99b382b3dc53080208f17e90011b80a
+SHA256: 4b66e017b6ad4fa2ec9dec11f61a070b62d4d521831cbe448d6b147dc5481fe2
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP binding to libsodium software library for encryption, decryption,
+             signatures, password hashing and more.
+
+Package: ze-php81-sodium
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13401,6 +14139,24 @@ Description: PHP binding to libsodium software library for encryption, decryptio
 
 Package: ze-php81-tidy
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 82
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-tidy_8.1.12-2_amd64.deb
+Size: 17232
+MD5sum: 78521af020f0d348a88cd0c96e8e52c6
+SHA1: 576f4e4918960c6cc6bc8c3455d7c16c83ff1323
+SHA256: 63a4d492b9702cd333b3ed41e321011b4cd289198bfe456b9c2d6f00af9ad5ef
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-tidy package contains a dynamic shared object that will add
+    support for using the tidy library to PHP.
+
+Package: ze-php81-tidy
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13434,6 +14190,26 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-tidy package contains a dynamic shared object that will add
     support for using the tidy library to PHP.
+
+Package: ze-php81-xml
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 458
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-dom, ze-php81-domxml, ze-php81-simplexml, ze-php81-xmlreader, ze-php81-xmlwriter, ze-php81-xsl
+Filename: pool/focal/main/ze-php81-xml_8.1.12-2_amd64.deb
+Size: 104680
+MD5sum: a396f7d2a1ff111bfd6b91dacbaf57c7
+SHA1: 4531bb12ff3680dac7f91c7d90d45fed06da82a8
+SHA256: 3f73105968f3e51575c1aa6d9d910da3d4f5006c2255cf14b7e5ede9825aec17
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-xml package contains dynamic shared objects which add support
+    to PHP for manipulating XML documents using the DOM tree,
+    and performing XSL transformations on XML documents.
 
 Package: ze-php81-xml
 Source: ze-php81
@@ -13477,6 +14253,24 @@ Description: The ze-php81-xml package contains dynamic shared objects which add 
 
 Package: ze-php81-xmlrpc
 Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 8
+Depends: ze-php81-common, ze-php81-cli
+Filename: pool/focal/main/ze-php81-xmlrpc_8.1.12-2_amd64.deb
+Size: 1432
+MD5sum: 2f7f087a55f883d51fdf2f6225d36dfc
+SHA1: 7190bac3e7db8cbc6104e2a42ee396a25b3bb07b
+SHA256: c1fdad0721424c5ebe69f5f1784b3274e1360617570e360696ee0456eba6527f
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-xmlrpc package contains a dynamic shared object that will add
+    support for the XML-RPC protocol to PHP.
+
+Package: ze-php81-xmlrpc
+Source: ze-php81
 Version: 8.1.5-3
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -13510,6 +14304,26 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-xmlrpc package contains a dynamic shared object that will add
     support for the XML-RPC protocol to PHP.
+
+Package: ze-php81-zip
+Source: ze-php81
+Version: 8.1.12-2
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 102
+Depends: ze-php81-common, ze-php81-cli
+Provides: ze-php81-zip
+Filename: pool/focal/main/ze-php81-zip_8.1.12-2_amd64.deb
+Size: 22584
+MD5sum: fa62d0ff82c5edc025154a2c4b207593
+SHA1: 03e484886c0239ae4ba1e42315d72a7d146f1a63
+SHA256: a26b2c2fed779d27ea0de9540b357638a61f39834a6c04465db6a394ce6038d0
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: The ze-php81-zip package delivers a module which will allow PHP scripts
+    to transparently read or write ZIP compressed archives and the files
+    inside them.
 
 Package: ze-php81-zip
 Source: ze-php81
