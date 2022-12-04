@@ -1,3 +1,620 @@
+Package: dovecot-auth-lua
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 117
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.4), liblua5.3-0
+Filename: pool/focal/main/dovecot-auth-lua_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 58424
+MD5sum: d8c28d53bcd701773e2882775d1b45c5
+SHA1: 3b693e2d894be21453d92570a668fa64d9149b8c
+SHA256: a794591c2db9aecb5924c31cda750097382ef2c81152851064e1693aabf236ff
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - Lua authentication plugin
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains an authentication plugin allowing password and user
+ databases to be implemented in Lua.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-core
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 9857
+Depends: adduser, libpam-runtime (>= 0.76-13.1), lsb-base, openssl, ssl-cert, ucf (>= 2.0020), libapparmor1 (>= 2.7.0~beta1+bzr1772), libbz2-1.0, libc6 (>= 2.27), libcrypt1 (>= 1:4.1.0), libexttextcat-2.0-0 (>= 3.3.0), libicu66 (>= 66.1-1~), liblua5.3-0, liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libpam0g (>= 0.99.7.1), libsodium23 (>= 1.0.13), libssl1.1 (>= 1.1.1), libstemmer0d (>= 0+svn527), libwrap0 (>= 7.6-4~), zlib1g (>= 1:1.1.4)
+Suggests: dovecot-gssapi, dovecot-imapd, dovecot-ldap, dovecot-lmtpd, dovecot-lucene, dovecot-managesieved, dovecot-mysql, dovecot-pgsql, dovecot-pop3d, dovecot-sieve, dovecot-solr, dovecot-sqlite, dovecot-submissiond, ntp
+Breaks: dovecot-common (<< 1:2.0.14-2~), mailavenger (<< 0.8.1-4)
+Replaces: dovecot-common (<< 1:2.0.14-2~), mailavenger (<< 0.8.1-4)
+Provides: dovecot-abi-2.3.abiv7, dovecot-common
+Filename: pool/focal/main/dovecot-core_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 2944004
+MD5sum: 31e8ef499f1b06e69ec478a84d9b92be
+SHA1: 9878a4509587acb8bb7c262fb5f33e71ca591839
+SHA256: 69b7c107db5baefddbcc7a4f6dd30003b48323621b4fbf1863d5d639f9d1399d
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - core files
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot main server and its command line utility.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-dev
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2098
+Breaks: dovecot-common (<< 1:2.0.14-2~), dovecot-core (<< 1:2.2.26.0-1~)
+Replaces: dovecot-common (<< 1:2.0.14-2~), dovecot-core (<< 1:2.2.26.0-1~)
+Filename: pool/focal/main/dovecot-dev_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 387672
+MD5sum: c5cfed103020a7112b5bd063f09aedfe
+SHA1: 9ddc9b1c0905f15b98e8ead9d3646f87dd92ee04
+SHA256: a4b875f25bf802a32e70a75f937e02f49d183093ec6f8046443a0b33b589d1b5
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - header files
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains header files needed to compile plugins for the Dovecot
+ mail server.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-gssapi
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 83
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.4), libgssapi-krb5-2 (>= 1.17), libkrb5-3 (>= 1.6.dfsg.2)
+Filename: pool/focal/main/dovecot-gssapi_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 48676
+MD5sum: f688695f05feb197d16643328d848347
+SHA1: 306fe2d5b87f700bf8280030a0cf83426de097f1
+SHA256: e0eb2ccf2790e3d0e9697f11b230f10baace0633375bfeb4501b7879351596ba
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - GSSAPI support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides GSSAPI authentication support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-imapd
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 642
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libbz2-1.0, libc6 (>= 2.14), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.1.4)
+Suggests: ufw
+Provides: imap-server
+Filename: pool/focal/main/dovecot-imapd_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 197880
+MD5sum: 25b198032829c809747685441b072d0c
+SHA1: 11c4195e6257957216c8b54e685a7639dd8cda2e
+SHA256: 74da7afff145f50401f764f8297e56a5aba33775639a4a243fb7100f5360bdee
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - IMAP daemon
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot IMAP server.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-ldap
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 197
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.4), libldap-2.4-2 (>= 2.4.7)
+Breaks: dovecot-core (<< 1:2.2.26.0-1~)
+Replaces: dovecot-core (<< 1:2.2.26.0-1~)
+Filename: pool/focal/main/dovecot-ldap_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 79128
+MD5sum: 70500b6f984865fd1c599285b9a1825e
+SHA1: db80fdf95a8ac1367d28264c76be49febe5e6054
+SHA256: 0dd5af2ee68e839efb2925dc95ac3595673e70dc0ee74d96c9a1ec3b33ade335
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - LDAP support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides LDAP support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-lmtpd
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 128
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.4)
+Breaks: dovecot-common (<< 1:2.0.14-2~)
+Replaces: dovecot-common (<< 1:2.0.14-2~)
+Filename: pool/focal/main/dovecot-lmtpd_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 62740
+MD5sum: 80dddbcf0bf6ca8ace282fc4553098d0
+SHA1: 91fc0dfa59c8180e4a368c467bb14bc97dd82404
+SHA256: 9ac873b9af9a998a3aad8a22b48278377c6ecdd5d071c7761e9dc6457fc49815
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - LMTP server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot LMTP server.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-lucene
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 150
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.14), libclucene-core1v5 (>= 2.3.3.4+dfsg), libexttextcat-2.0-0 (>= 2.2-8), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), libstemmer0d (>= 0+svn527)
+Filename: pool/focal/main/dovecot-lucene_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 68796
+MD5sum: a736e401c53317b69acfd750a45aa3b4
+SHA1: 5ea97ce3c4ee364f610d13f306e1b6dea9ff836c
+SHA256: e9b7cf614a9b7022e9dd9a3172f3cffeb695edd236be84a3333301dbe4423029
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - Lucene support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Lucene full text search support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-managesieved
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 223
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), dovecot-sieve (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.4)
+Breaks: dovecot-common (<< 1:2.0.14-2~)
+Replaces: dovecot-common (<< 1:2.0.14-2~)
+Filename: pool/focal/main/dovecot-managesieved_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 80940
+MD5sum: b815136044cfac05c6e7c939ab955bf4
+SHA1: 430c6cba8e45c8cc36185e5c394118fd99a5ef26
+SHA256: d6dab1477da1d555166f8399be3406b769148fc76ccf1dfac229dc1ca265e668
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - ManageSieve server
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot ManageSieve server.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-mysql
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 95
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.4), libmysqlclient21 (>= 8.0.11)
+Filename: pool/focal/main/dovecot-mysql_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 50204
+MD5sum: 4ef195851766aa4aa88db6b41d6ef7ca
+SHA1: 9e45b4068f213f8fefad449ca5b4b1bdc7a17a8c
+SHA256: 9c1f0e8d62380092363662a013f682a59f3371441047ec6e7800fe37803cc5f1
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - MySQL support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides MySQL support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-pgsql
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 99
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.4), libpq5
+Filename: pool/focal/main/dovecot-pgsql_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 53372
+MD5sum: 914afb6fab1cc04dc24142483723c02d
+SHA1: 431abf11982854f4a95a407e06d238c78ea04b68
+SHA256: 863cd8770e910ddee577e485c5dd93cf3ebebfeeafcd811e7b43e429cb38e377
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - PostgreSQL support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides PostgreSQL support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-pop3d
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 170
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.4)
+Suggests: ufw
+Provides: pop3-server
+Filename: pool/focal/main/dovecot-pop3d_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 70696
+MD5sum: 1c7516910a71d0c901684923f28e6311
+SHA1: 2e4ada113cc6c9adf97af1a079bea35665a6ee38
+SHA256: 940a8d9dc03c268d9a1ee99bf2d71c7cd0c9e3fc4b91694f7355f4b5917d88ab
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - POP3 daemon
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot POP3 server.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-sieve
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1250
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.14)
+Breaks: dovecot-core (<= 1:2.2.13-6), dovecot-imapd (<< 1:2.2.26.0-1~)
+Replaces: dovecot-core (<= 1:2.2.13-6), dovecot-imapd (<< 1:2.2.26.0-1~)
+Filename: pool/focal/main/dovecot-sieve_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 362300
+MD5sum: f6d8ce1d538af5db94d2df5f01dfc85d
+SHA1: db641e9350c98543cbccbe2519f204294e24aabf
+SHA256: c684b9c567a21a8780e58f8caef3d367b3a4e27f13dfbe87918a098c630f0426
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - Sieve filters support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Sieve filters support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-solr
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 123
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.4), libexpat1 (>= 2.0.1)
+Filename: pool/focal/main/dovecot-solr_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 61244
+MD5sum: 58ec11ce2b8301537e3ba4d2b44753ae
+SHA1: 4a1b04ef5f0157d01958de87d4dddf0e5517cc3d
+SHA256: c6aeee8d18e167ba90f5c211f9428431b443cf7e7c3e43cb19c2187df9d54201
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - Solr support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides Solr full text search support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-sqlite
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 87
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), libc6 (>= 2.14), libsqlite3-0 (>= 3.5.9)
+Filename: pool/focal/main/dovecot-sqlite_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 48268
+MD5sum: 53871090e25f0e3523f64f5dc8e32038
+SHA1: dc8ac58f6a2f76cfdd5c3debbd9dfadea35b639a
+SHA256: 779874f9d0ebd00959c245fd8d06590f4f165df75b728cad417a66ecfcd78c9b
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - SQLite support
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package provides SQLite support for Dovecot.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: dovecot-submissiond
+Source: dovecot
+Version: 1:4.3.7.2-1ubuntu3.6
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 209
+Depends: dovecot-core (= 1:4.3.7.2-1ubuntu3.6), ucf (>= 2.0020), libc6 (>= 2.4)
+Breaks: dovecot-submission (<< 1:2.3.1-2~)
+Replaces: dovecot-submission (<< 1:2.3.1-2~)
+Filename: pool/focal/main/dovecot-submissiond_4.3.7.2-1ubuntu3.6_amd64.deb
+Size: 85088
+MD5sum: 544e0d05349b7685eb89b32e44745d73
+SHA1: db1506e2b531e29c19468cafd0c42697be55550b
+SHA256: 36ff34a2f49694f010990fd7025a81056246a1eac7492a88b2dc645d02c39014
+Section: extra
+Priority: Priority
+Homepage: http://dovecot.org/
+Description: secure POP3/IMAP server - mail submission agent
+ Dovecot is a mail server whose major goals are security and extreme
+ reliability. It tries very hard to handle all error conditions and verify
+ that all data is valid, making it nearly impossible to crash. It supports
+ mbox/Maildir and its own dbox/mdbox formats, and should also be pretty
+ fast, extensible, and portable.
+ .
+ This package contains the Dovecot Mail Submission Agent which implements a
+ basic SMTP submission service with BURL support.
+Original-Maintainer: Dovecot Maintainers <dovecot@packages.debian.org>
+
+Package: exim4-base
+Source: exim4
+Version: 8.93-13ubuntu1.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1703
+Depends: adduser, cron | cron-daemon | anacron | systemd-sysv, exim4-config (>= 4.82) | exim4-config-2, lsb-base (>= 3.0-6), netbase, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.14), libdb5.3
+Recommends: mailx, psmisc
+Suggests: exim4-doc-html | exim4-doc-info, eximon4, file, gnutls-bin | openssl, mail-reader, spf-tools-perl, swaks
+Conflicts: exim, exim-tls
+Breaks: exim4-daemon-custom (<< 8.93), exim4-daemon-heavy (<< 8.93), exim4-daemon-light (<< 8.93)
+Replaces: exim, exim-tls, exim4-daemon-custom, exim4-daemon-heavy, exim4-daemon-light
+Filename: pool/focal/main/exim4-base_8.93-13ubuntu1.7_amd64.deb
+Size: 1157744
+MD5sum: 7e03f93ed088e1849dd0e8a2f1965027
+SHA1: 34f3d180e144df47ac9619c2cfc1f1d72d5ded9b
+SHA256: 22b33be65cae7651b4ddcda935bd83c129b6f719d7ae2795d4cbb7452975a714
+Section: extra
+Priority: Priority
+Homepage: https://www.exim.org/
+Description: support files for all Exim MTA (v4) packages
+ Exim (v4) is a mail transport agent. exim4-base provides the support
+ files needed by all exim4 daemon packages. You need an additional package
+ containing the main executable. The available packages are:
+ .
+  exim4-daemon-light
+  exim4-daemon-heavy
+ .
+ If you build exim4 from the source package locally, you can also
+ build an exim4-daemon-custom package tailored to your own feature set.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+ FAQ list. Information about the way the Debian packages are
+ configured can be found in
+ /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The
+ very extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list,
+ pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+ questions there, and only write to the upstream exim-users mailing
+ list if you are sure that your question is not Debian-specific. You
+ can find the subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
+
+Package: exim4-daemon-heavy
+Source: exim4
+Version: 8.93-13ubuntu1.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1629
+Depends: exim4-base (>= 8.93), debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgnutls-dane0 (>= 3.5.7), libgnutls30 (>= 3.6.12), libidn11 (>= 1.13), libidn2-0 (>= 0.6), libldap-2.4-2 (>= 2.4.7), libmysqlclient21 (>= 8.0.11), libpam0g (>= 0.99.7.1), libpcre3, libperl5.30 (>= 5.30.0), libpq5, libsasl2-2 (>= 2.1.27+dfsg), libsqlite3-0 (>= 3.5.9)
+Conflicts: mail-transport-agent
+Breaks: clamav-daemon (<< 0.95)
+Replaces: exim4-base (<= 4.61-1), mail-transport-agent
+Provides: exim4-localscanapi-3.1, mail-transport-agent
+Filename: pool/focal/main/exim4-daemon-heavy_8.93-13ubuntu1.7_amd64.deb
+Size: 692636
+MD5sum: acce66abe74737c5d2d68e51f92ef99e
+SHA1: 85f70dfce9e59c920f1abf0c70c847444eb8d247
+SHA256: 43e182545149a743ce5ee7e22d23aa5bf9f58f05100462cf5f6111eaee674bab
+Section: extra
+Priority: Priority
+Homepage: https://www.exim.org/
+Description: Exim MTA (v4) daemon with extended features, including exiscan-acl
+ Exim (v4) is a mail transport agent. This package contains the exim4
+ daemon with extended features. In addition to the features already
+ supported by exim4-daemon-light, exim4-daemon-heavy includes LDAP,
+ sqlite, PostgreSQL and MySQL data lookups, SASL and SPA SMTP authentication,
+ embedded Perl interpreter, and the content scanning extension
+ (formerly known as "exiscan-acl") for integration of virus scanners
+ and spamassassin.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+ FAQ list. Information about the way the Debian packages are
+ configured can be found in
+ /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The
+ very extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list,
+ pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+ questions there, and only write to the upstream exim-users mailing
+ list if you are sure that your question is not Debian-specific. You
+ can find the subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
+
+Package: exim4-daemon-light
+Source: exim4
+Version: 8.93-13ubuntu1.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1475
+Depends: exim4-base (>= 8.93), debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libdb5.3, libgnutls-dane0 (>= 3.5.7), libgnutls30 (>= 3.6.12), libidn11 (>= 1.13), libidn2-0 (>= 0.6), libpcre3
+Conflicts: mail-transport-agent
+Replaces: exim4-base (<= 4.61-1), mail-transport-agent
+Provides: exim4-localscanapi-3.1, mail-transport-agent
+Filename: pool/focal/main/exim4-daemon-light_8.93-13ubuntu1.7_amd64.deb
+Size: 635888
+MD5sum: 011165b0e1f66bc1f960c07d3a05437b
+SHA1: 0b4093ed41c7445c8308d3d82a7a80d8d635c864
+SHA256: eac8b90cc99ea46c15591a4156941fed8f2184a465bef1f05806d2a49d781f35
+Section: extra
+Priority: Priority
+Homepage: https://www.exim.org/
+Description: lightweight Exim MTA (v4) daemon
+ Exim (v4) is a mail transport agent. This package contains the exim4
+ daemon with only basic features enabled. It works well with the
+ standard setups that are provided by Debian and includes support for
+ TLS encryption and the dlopen patch to allow dynamic loading of a
+ local_scan function.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+ FAQ list. Information about the way the Debian packages are
+ configured can be found in
+ /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The
+ very extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list,
+ pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+ questions there, and only write to the upstream exim-users mailing
+ list if you are sure that your question is not Debian-specific. You
+ can find the subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
+
+Package: exim4-dev
+Source: exim4
+Version: 8.93-13ubuntu1.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 152
+Filename: pool/focal/main/exim4-dev_8.93-13ubuntu1.7_amd64.deb
+Size: 116372
+MD5sum: 3139d616146822a4f3c39e9e1ebc3294
+SHA1: 1929380012e8939db0b7f870e9f4aa6663cf2f4b
+SHA256: 3523ef65c9b11316ee1ef012e43d09a7b2b7902ff94d74c628109a164dead5a1
+Section: extra
+Priority: Priority
+Homepage: https://www.exim.org/
+Description: header files for the Exim MTA (v4) packages
+ Exim (v4) is a mail transport agent. This package contains header
+ files that can be used to compile code that is then dynamically linked
+ to exim's local_scan interface.
+ .
+ The Debian exim4 packages have their own web page,
+ http://wiki.debian.org/PkgExim4. There is also a Debian-specific
+ FAQ list. Information about the way the Debian packages are
+ configured can be found in
+ /usr/share/doc/exim4-base/README.Debian.gz, which additionally contains
+ information about the way the Debian binary packages are built. The
+ very extensive upstream documentation is shipped in
+ /usr/share/doc/exim4-base/spec.txt.gz. To repeat the debconf-driven
+ configuration process in a standard setup, invoke dpkg-reconfigure
+ exim4-config. There is a Debian-centered mailing list,
+ pkg-exim4-users@lists.alioth.debian.org. Please ask Debian-specific
+ questions there, and only write to the upstream exim-users mailing
+ list if you are sure that your question is not Debian-specific. You
+ can find the subscription web page on
+ http://lists.alioth.debian.org/mailman/listinfo/pkg-exim4-users
+Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
+
+Package: eximon4
+Source: exim4
+Version: 8.93-13ubuntu1.7
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 235
+Depends: exim4-base (>= 4.10), libc6 (>= 2.14), libpcre3, libx11-6, libxaw7, libxmu6, libxt6
+Conflicts: eximon
+Replaces: eximon
+Filename: pool/focal/main/eximon4_8.93-13ubuntu1.7_amd64.deb
+Size: 149412
+MD5sum: 2cd536b0a8242e233f0ac5d9d3a36e35
+SHA1: 2911b781e2279ae5ac22e99da875efa6a3db78b2
+SHA256: 5174d890971dca88935754e058592071696a9ef96866c83a065bea38013c8d21
+Section: extra
+Priority: Priority
+Homepage: https://www.exim.org/
+Description: monitor application for the Exim MTA (v4) (X11 interface)
+ Eximon is a helper program for the Exim MTA (v4). It allows
+ administrators to view the mail queue and logs, and perform a variety
+ of actions on queued messages, such as freezing, bouncing and thawing
+ messages.
+Original-Maintainer: Exim4 Maintainers <pkg-exim4-maintainers@lists.alioth.debian.org>
+
 Package: pure-ftpd
 Version: 2.0.49-5
 Architecture: amd64
@@ -16946,28 +17563,6 @@ Description: High Performance, lightweight, open source HTTP server
  OpenLiteSpeed Web Server is developed and copyrighted by LiteSpeed Technologies.
 
 Package: zesle-php
-Version: 7.4.29-15
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 39190
-Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
-Provides: php
-Filename: pool/focal/main/zesle-php_7.4.29-15_amd64.deb
-Size: 9754776
-MD5sum: 94a745f97242624bac1f19af1f329590
-SHA1: 7a0e543659cc2734b35b12fc2989d9c82cb55b05
-SHA256: ab213bb0b5cedb049b2459332ad46a5edec26ed880d5b07879e9952791093f9c
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
- easy for developers to write dynamically generated web pages. PHP also
- offers built-in database integration for several commercial and
- non-commercial database management systems, so writing a
- database-enabled webpage with PHP is fairly simple. The most common
- use of PHP coding is probably as a replacement for CGI scripts.
-
-Package: zesle-php
 Version: 7.4.29-16
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -17033,23 +17628,27 @@ Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
  database-enabled webpage with PHP is fairly simple. The most common
  use of PHP coding is probably as a replacement for CGI scripts.
 
-Package: zesle-php-cli
-Source: zesle-php
-Version: 7.4.29-15
+Package: zesle-php
+Version: 7.4.29-19
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 47899
-Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-cli_7.4.29-15_amd64.deb
-Size: 8202976
-MD5sum: 6e7d48f726465b403d49fa4789092ba5
-SHA1: ecc983c31c85a1ea6ba3559fc1c9b87d7cc1f9b1
-SHA256: 05fedc329f61555c430e19e9adce4c7f7e94a340b164d4c750d6c2d6c3c32439
+Installed-Size: 39092
+Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
+Provides: php
+Filename: pool/focal/main/zesle-php_7.4.29-19_amd64.deb
+Size: 9726404
+MD5sum: 3086e032c5916b7c5d7a94589737d34a
+SHA1: a60925a3b8d510568c84a6fee2b7a70c418d747a
+SHA256: ea4f4d46f030e045721fea28c8def8a9c1d9dba020f05b06e8d6ca529d76f502
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: The php-cli package contains the command-line interface
- executing PHP scripts, /usr/bin/php, and the CGI interface.
+Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
+ easy for developers to write dynamically generated web pages. PHP also
+ offers built-in database integration for several commercial and
+ non-commercial database management systems, so writing a
+ database-enabled webpage with PHP is fairly simple. The most common
+ use of PHP coding is probably as a replacement for CGI scripts.
 
 Package: zesle-php-cli
 Source: zesle-php
@@ -17105,24 +17704,23 @@ Homepage: http://www.php.net/
 Description: The php-cli package contains the command-line interface
  executing PHP scripts, /usr/bin/php, and the CGI interface.
 
-Package: zesle-php-dev
+Package: zesle-php-cli
 Source: zesle-php
-Version: 7.4.29-15
+Version: 7.4.29-19
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 5636
-Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-15)
-Filename: pool/focal/main/zesle-php-dev_7.4.29-15_amd64.deb
-Size: 599864
-MD5sum: 8000ab2666ead525c22d2420e9c99402
-SHA1: 2509606721248684cbcc247d15b1e25b98ac8732
-SHA256: ebee95066decf31c55a5901da42535009009df132db14b400fcc2f9efc1164ba
+Installed-Size: 48095
+Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Filename: pool/focal/main/zesle-php-cli_7.4.29-19_amd64.deb
+Size: 8245908
+MD5sum: d0457770914a9c9af06b3430ef7c703e
+SHA1: ca4b61d355c5675f0b6aa26ce98c23535ca8f944
+SHA256: 2a4cb41879cb4a5febaee7396f2530cdf9fa9dfb6c676f39cbf392010952455d
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: The zesle-php-devel package contains the files needed for building PHP
-    extensions. If you need to compile your own PHP extensions, you will
-    need to install this package.
+Description: The php-cli package contains the command-line interface
+ executing PHP scripts, /usr/bin/php, and the CGI interface.
 
 Package: zesle-php-dev
 Source: zesle-php
@@ -17181,24 +17779,24 @@ Description: The zesle-php-devel package contains the files needed for building 
     extensions. If you need to compile your own PHP extensions, you will
     need to install this package.
 
-Package: zesle-php-fpm
+Package: zesle-php-dev
 Source: zesle-php
-Version: 7.4.29-15
+Version: 7.4.29-19
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 23776
-Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-fpm_7.4.29-15_amd64.deb
-Size: 4037532
-MD5sum: 50ff141e748ff8ff4b08d12ca3e710a6
-SHA1: 7ee4bac1e29b6ede1a97d0ac0762754420f26f77
-SHA256: f3aea90045a1a37a755ef8983a5ca45de30bf40716b182fba0240a6245e5d1c8
+Installed-Size: 5636
+Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-19)
+Filename: pool/focal/main/zesle-php-dev_7.4.29-19_amd64.deb
+Size: 599864
+MD5sum: ffc5f1a4922f7b93d04549c15407214d
+SHA1: 18a1d2872bc2076453308b55d76fa8c5aea51060
+SHA256: 5640f6261c25fffa72c088554c43da5010a3b1e735761b874bfc18d480fddd44
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
-    implementation with some additional features useful for sites of
-    any size, especially busier sites.
+Description: The zesle-php-devel package contains the files needed for building PHP
+    extensions. If you need to compile your own PHP extensions, you will
+    need to install this package.
 
 Package: zesle-php-fpm
 Source: zesle-php
@@ -17250,6 +17848,25 @@ Size: 4060196
 MD5sum: 964d95a92dfa19024ee9bd150cfde047
 SHA1: 2cebdf220f145dbc9167cc3ab794a6912c2796c7
 SHA256: 26591de84841f45c30f2f0d4509e3b7afa8d29b73aa3b6f4e1d907b183144170
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
+    implementation with some additional features useful for sites of
+    any size, especially busier sites.
+
+Package: zesle-php-fpm
+Source: zesle-php
+Version: 7.4.29-19
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 23872
+Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Filename: pool/focal/main/zesle-php-fpm_7.4.29-19_amd64.deb
+Size: 4058756
+MD5sum: e0dd7cc8ed14c9b35b9346279b6e3076
+SHA1: 41b22a95120d9118a5d81b4adc7e58afdf88bcd9
+SHA256: 02dedcc220c16e7b36f595e9777fdfa19bfabe9b5f024edeea9eb948528627df
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
