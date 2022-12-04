@@ -44,10 +44,10 @@ Conflicts: citadel-server, courier-mta, dma, esmtp-run, exim, exim-tls, exim4-co
 Breaks: exim4-daemon-heavy (<< 4.91~RC1), exim4-daemon-light (<< 4.91~RC1)
 Provides: exim4-config-2
 Filename: pool/all/main/exim4-config_8.93-13ubuntu1.7_all.deb
-Size: 317464
-MD5sum: aa22553cc37e521b0d36eed8fac44288
-SHA1: 5fd7e97a1900a1634213dfe529497c87a4eaa5f8
-SHA256: 0590576146640afea62086518f0002ee5f766c57a8088829d79a73ede5eec592
+Size: 317516
+MD5sum: 2021eacfb88318f11177fdf93b87e68b
+SHA1: 35fcd3c108ecacd598d7e406d494132c5944a5b9
+SHA256: 507a1c0e9f03f151940d9658cd88ddbe245cbb3c7d8fa09e74399d0c5d7a62d9
 Section: extra
 Priority: Priority
 Homepage: https://www.exim.org/
