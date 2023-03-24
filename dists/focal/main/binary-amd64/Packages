@@ -9007,6 +9007,27 @@ Description: The ze-php73-mbstring package contains a dynamic shared object that
     support for multi-byte string handling to PHP.
 
 Package: ze-php73-mongodb
+Version: 1.15.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1392
+Depends: ucf, libc6 (>= 2.17), libsasl2-2 (>= 2.1.27+dfsg)
+Filename: pool/focal/main/ze-php73-mongodb_1.15.0-1_amd64.deb
+Size: 448152
+MD5sum: 400749a0aa0819b0a0ec8341e511f795
+SHA1: d8ecae16c49de504590d0b7281f9e046c03a5b18
+SHA256: 0fd1618c738e143db60a1952fe8ecbfc81b42bc06531cdaebe596933d870017b
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
+
+Package: ze-php73-mongodb
 Version: 1.9.1-4
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -9581,6 +9602,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php73-recode package contains a dynamic shared object that will add
  support for using the recode library to PHP.
+
+Package: ze-php73-redis
+Version: 5.3.7-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 650
+Depends: ucf, libc6 (>= 2.14)
+Filename: pool/focal/main/ze-php73-redis_5.3.7-1_amd64.deb
+Size: 144508
+MD5sum: a9f4c2423a399ae5e3c73a647128d393
+SHA1: cf53a83c5423e41af39cb0737aa9b3124e93f5bd
+SHA256: 7092b2678b5b69135f0764ff4199afc71e4ebf47fc2b25ef6e681874388c94ff
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php73-snmp
 Source: ze-php73
@@ -11248,10 +11290,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 471
 Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
 Filename: pool/focal/main/ze-php74-imagick_3.7.0-1_amd64.deb
-Size: 91592
-MD5sum: 192bd40b6d2a877e88abb76ca839a96d
-SHA1: 23036ff38a231ca725c43980b9cfe0dd3776203b
-SHA256: 4c73fd196f4eb4f5b623bc097a6ab1d04fa753b6c920998159890858c64b12a8
+Size: 92792
+MD5sum: 4c15110d47f2148b0b5feafaaddc09dd
+SHA1: 61753fb5d29abbb72b4996592ba8fcd178b2d5c4
+SHA256: 8db4b89f424adcf0192afba6c318a72d84ac5709600ae221d86c6b25f76c8166
 Section: extra
 Priority: Priority
 Multi-Arch: foreign
@@ -11558,6 +11600,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php74-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php74-mongodb
+Version: 1.15.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1392
+Depends: ucf, libc6 (>= 2.17), libsasl2-2 (>= 2.1.27+dfsg)
+Filename: pool/focal/main/ze-php74-mongodb_1.15.0-1_amd64.deb
+Size: 447384
+MD5sum: 39b1de05f4c23f2dd4abf7684809a06e
+SHA1: bb0ab02a87d0560b534a4370ff63568dbecb1981
+SHA256: 549a439aaf7701b624f1b17a840127821af221a6bfa9bcd1fa361a2fea3fd8ad
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php74-mongodb
 Version: 1.9.1-4
@@ -12080,6 +12143,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php74-pspell package contains a dynamic shared object that will add
     support for using the pspell library to PHP.
+
+Package: ze-php74-redis
+Version: 5.3.7-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 654
+Depends: ucf, libc6 (>= 2.14)
+Filename: pool/focal/main/ze-php74-redis_5.3.7-1_amd64.deb
+Size: 146856
+MD5sum: a82d38817db1956106c2c26a07ea269c
+SHA1: c51f757649daebd94800477e478b9750b696c1f2
+SHA256: 61ce2195590f1ae0e2b7c7229cc277d9cccf6380cc12010e736cd6ba8df70b5e
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php74-snmp
 Source: ze-php74
@@ -13747,10 +13831,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 479
 Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
 Filename: pool/focal/main/ze-php80-imagick_3.7.0-1_amd64.deb
-Size: 92184
-MD5sum: 0c1cd36ecec00d3709b9dbf1851cc673
-SHA1: 58057c558eaa3de67643aaf0f3ec522f36f9c5e8
-SHA256: 543ce2615924c6307941dd4b05354d5654a7cda7c7c035510280ca74e057a034
+Size: 92112
+MD5sum: c0097ed9b3752de07ae418ce00679b17
+SHA1: 7ee4fad721c9f492aa9b27caab55689ae8199127
+SHA256: 831b93cbbafdbf639aaac28d41064e540ea6060bffcd71e8ef0fa695ccc3c4dd
 Section: extra
 Priority: Priority
 Multi-Arch: foreign
@@ -14039,6 +14123,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php80-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php80-mongodb
+Version: 1.15.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1400
+Depends: ucf, libc6 (>= 2.17), libsasl2-2 (>= 2.1.27+dfsg)
+Filename: pool/focal/main/ze-php80-mongodb_1.15.0-1_amd64.deb
+Size: 447980
+MD5sum: 658d1b5bc907da8c46847335258621bc
+SHA1: c44b1d5a2bb16dba488ff1b639a7ffe0a65b60e0
+SHA256: e881b80d39d171ed22df06ebfb485ed05d0d4bd9d0afd6685f01293c7e8afb23
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php80-mysqlnd
 Source: ze-php80
@@ -14540,6 +14645,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php80-pspell package contains a dynamic shared object that will add
     support for using the pspell library to PHP.
+
+Package: ze-php80-redis
+Version: 5.3.7-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 654
+Depends: ucf, libc6 (>= 2.14)
+Filename: pool/focal/main/ze-php80-redis_5.3.7-1_amd64.deb
+Size: 147336
+MD5sum: bcc93877c3e9bccab7c41345d0088fb4
+SHA1: f9fa56ef7731ef4b6d68c5695ccdc68a24f0e1d6
+SHA256: 8b10ee4e5bdc8026a1146ea203d6c7e1b0fdb5ce2850f8f253c06491d241a405
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php80-snmp
 Source: ze-php80
@@ -16207,10 +16333,10 @@ Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
 Installed-Size: 479
 Depends: libc6 (>= 2.14), libgomp1 (>= 9), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmagickwand-6.q16-6 (>= 8:6.9.10.2)
 Filename: pool/focal/main/ze-php81-imagick_3.7.0-1_amd64.deb
-Size: 92120
-MD5sum: e98317afa2f84cbe967f28faf79dee70
-SHA1: 4141856fa43bf8b8883d9e1e64575f8cdd30669d
-SHA256: 31d7b3ce3a8a374d3bedfdaeff7fc7dd719bf70996326640e3b572c503a8e349
+Size: 92248
+MD5sum: 8ad9873947753b8cc966fb316b1a01b7
+SHA1: 0e71d95d4e91e24d08a3bc5cf8496f8524276746
+SHA256: 8934b79d59cd0b1e6052bedceae45927fd38c0663370940d04c228c35bc0613b
 Section: extra
 Priority: Priority
 Multi-Arch: foreign
@@ -16499,6 +16625,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-mbstring package contains a dynamic shared object that will add
     support for multi-byte string handling to PHP.
+
+Package: ze-php81-mongodb
+Version: 1.15.0-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 1400
+Depends: ucf, libc6 (>= 2.17), libsasl2-2 (>= 2.1.27+dfsg)
+Filename: pool/focal/main/ze-php81-mongodb_1.15.0-1_amd64.deb
+Size: 448076
+MD5sum: dae9850eaa8fc61b1f8f03261664174b
+SHA1: c4f09d5a14ea6fc51f31fb7e3491b995d15b71c0
+SHA256: 5439ff5f91a7aeb346bdbd0c022a5744b436f1ec78eb62cec0cfbf3c59ddcf4c
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php81-mysqlnd
 Source: ze-php81
@@ -17000,6 +17147,27 @@ Priority: Priority
 Homepage: http://www.php.net/
 Description: The ze-php81-pspell package contains a dynamic shared object that will add
     support for using the pspell library to PHP.
+
+Package: ze-php81-redis
+Version: 5.3.7-1
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 654
+Depends: ucf, libc6 (>= 2.14)
+Filename: pool/focal/main/ze-php81-redis_5.3.7-1_amd64.deb
+Size: 146760
+MD5sum: 63c2e8c815ad566d2787bd38c47e5ee8
+SHA1: b004b7f0c09ff2a399b08eea126862053a974f25
+SHA256: da5ba9e42a0279c89e6812982cd6d58256a783b4cb73e3ca4c02893572813793
+Section: extra
+Priority: Priority
+Multi-Arch: foreign
+Homepage: https://zeslecp.com
+Description: MongoDB driver for PHP
+ The purpose of this driver is to provide exceptionally thin glue
+ between MongoDB and PHP, implementing only fundemental and
+ performance-critical components necessary to build a fully-functional
+ MongoDB driver.
 
 Package: ze-php81-snmp
 Source: ze-php81
